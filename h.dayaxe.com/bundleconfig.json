@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "Scripts/bootstrap-datepicker.min.js",
+    "inputFiles": [
+      "Scripts/bootstrap-datepicker.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/custom-datepicker.min.css",
+    "inputFiles": [
+      "Content/custom-datepicker.css"
+    ]
+  }
+]

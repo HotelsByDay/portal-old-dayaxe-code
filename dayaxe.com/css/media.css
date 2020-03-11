@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 991px) {
+	
+
+	}
+
+
+@media only screen and (max-width: 768px) {
+	
+	
+	}
+
+
+@media only screen and (max-width: 480px) {
+	
+		.main-part{ width:100%;}
+
+	}
+
+
+@media only screen and (max-width: 320px) {
+	
+	.main-part{ width:100%;}
+	
+
+	}
+

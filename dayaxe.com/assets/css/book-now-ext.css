@@ -1,0 +1,192 @@
+
+input[type="text"]::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+color:    rgb(85,85,85) !important;
+text-align: left;
+font-weight: normal;
+height:30px;
+line-height:30px;  
+}
+input[type="text"]:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+color: rgb(85, 85, 85) !important;
+text-align: left;
+font-weight: normal;
+height:30px;
+line-height:30px;  
+}
+input[type="email"]::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+color:    rgb(85,85,85) !important;
+text-align: left;
+font-weight: normal;
+height:30px;
+line-height:30px; 
+}
+input[type="email"]:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+color: rgb(85, 85, 85) !important;
+text-align: left;
+font-weight: normal;
+height:30px;
+line-height:30px;  
+}
+.errorborder {
+    border: 2px solid red !important;
+}
+.owl-pagination {
+    display: none !important;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    font-size: 31px !important;
+    opacity: 1 !important;
+    background: none !important;
+}
+
+.owl-next {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    font-size: 31px !important;
+    opacity: 1 !important;
+    background: none !important;
+}
+
+.wrapper {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #ddd !important;
+}
+
+#main > header {
+    padding: 0 !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    border-bottom-color: transparent;
+    border-bottom: 3px solid #50E3C2 !important;
+    color: #50E3C2;
+}
+
+.wrapper.style5 hr {
+    border-color: #c7c7c7;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.navbar {
+    border: 0;
+    position: fixed;
+    max-height: 42px;
+    margin-bottom: 0;
+    border-bottom: 1px solid transparent;
+    z-index: 1;
+    width: 100%;
+}
+
+hr {
+    border-color: #dfdfdf;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.item .text {
+    position: absolute;
+    bottom: 15px;
+    background-color: #50E3C2;
+    color: #000;
+    padding: 1px;
+    float: right;
+    right: 50px;
+    width: 71.72px;
+    font-size: 9.95px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background: none !important;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+.input-group .form-control:last-child, 
+/*.input-group-addon:last-child,*/ 
+.input-group-btn:first-child > .btn-group:not(:first-child) > .btn, 
+.input-group-btn:first-child > .btn:not(:first-child), 
+.input-group-btn:last-child > .btn, 
+.input-group-btn:last-child > .btn-group > .btn, 
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-addon:first-child {
+    border-right: 0;
+    width: 125px;
+    text-align: left;
+    background: none;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.input-group .form-control:last-child, 
+/*.input-group-addon:last-child,*/ 
+.input-group-btn:first-child > .btn-group:not(:first-child) > .btn, 
+.input-group-btn:first-child > .btn:not(:first-child), 
+.input-group-btn:last-child > .btn, 
+.input-group-btn:last-child > .btn-group > .btn, 
+.input-group-btn:last-child > .dropdown-toggle,
+input[type="text"], input[type="password"], input[type="email"], select {
+    height: 1.75em;
+    margin: 0.5em 0;
+    background: #eee;
+    width: 95%;
+}
+
+.col-s-12 .input-group:first-child {
+    border-top: 1px solid #ddd;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+::-webkit-input-placeholder {
+    font-weight: bold !important;
+    
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-weight: bold !important;
+    
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-weight: bold !important;
+  
+}
+
+:-ms-input-placeholder {
+    font-weight: bold !important;
+    
+}
+
+@media(min-width:450px) {
+    #addpadding {
+        margin-top: 40px;
+    }
+}
+
+.form-group {
+    margin: 9px 0;
+}

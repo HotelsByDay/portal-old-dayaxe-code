@@ -1,0 +1,303 @@
+﻿@media (max-width: 1300px) {
+    #owl-product-featured {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 992px) {
+    .services .services-right img{
+        float: right;
+    }
+    .services .services-right .icon-right img {
+        float: left;
+    }
+    .block-inner {
+        width: 100% !important;
+    }
+    .services-right > div {
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 18px;
+    }
+    .how-it-work .border-holder,
+    .how-it-work .color-overlay, 
+    .how-it-work {
+        height: 1108px;
+    }
+    .how-it-work h2 {
+        font-size: 28px;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .how-it-work h4 {
+        font-size: 14px;
+    }
+    .how-it-work .book-pass, 
+    .how-it-work .check-in, 
+    .how-it-work .enjoy-pass {
+        font-size: 14px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .how-it-work .video {
+        height: 270px;
+        width: 400px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .my-day-passes h1 {
+        font-size: 24px;
+        top: 75px;
+        padding-top: 0px;
+    }
+    .my-day-passes .color-overlay,
+    .my-day-passes .border-holder {
+        height: 220px;
+    }
+    .day-pass-content {
+        margin-top: 40px;
+    }
+    .banner h1 {
+        font-size: 36px;
+        padding-top: 80px;
+    }
+    .banner h4 {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 20px;
+        max-width: 305px;
+        margin: 0 auto;
+    }
+    .get-vip-access {
+        height: 43px;
+        line-height: 43px;
+        font-size: 20px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    .banner .arrow-down {
+        margin-top: 50px;
+    }
+    .banner .icon {
+        letter-spacing: 40px;
+        padding-top: 30px;
+    }
+    .banner .icon img {
+        width: 31px;
+    }
+    .banner .icon img.lotus {
+        width: 40px;
+    }
+    .banner .icon img.dumblell {
+        width: 42px;
+    }
+    .banner .icon img.handshake {
+        width: 46px;
+    }
+    .customer .brand-description {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .enjoy h2 {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 60px;
+    }
+    .enjoy .description {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 27px;
+        max-width: 305px;
+        margin: 0 auto;
+    }
+    .services-right > div {
+        padding-left: 15px;
+        padding-right: 3px;
+        padding-top: 5px;
+    }
+    .services-right > div.icon-right {
+        padding-left: 3px;
+        padding-right: 15px;
+    }
+    .how-it-work h2 {
+        font-size: 24px;
+    }
+    .browse-pass h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 60px auto 10px;
+    }
+    .browse-pass .description {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .browse-pass, .browse-pass .color-overlay {
+        height: inherit;
+    }
+    .browse-pass {
+        margin-bottom: 32px;
+    }
+    .browse-pass .link-browse-pass {
+        width: 250px;
+        margin: 30px auto;
+    }
+    .browse-pass .link-browse-pass a {
+        height: 43px;
+        line-height: 43px;
+    }
+    .room_title a:hover,
+    .room_title a {
+        font-size: 17px;
+        margin-left: 7px;
+        margin-top: 20px;
+    }
+    .col-pool {
+        padding: 0;
+    }
+    .services .col-pool > .uk-overlay {
+        float: none;
+        margin: 0 auto;
+        width: 460px;
+    }
+    .services .services-right > div > .uk-overlay {
+        float: right;
+    }
+    .services .services-right > .icon-right > .uk-overlay {
+        float: left;
+    }
+    .how-it-work {
+        margin-top: 60px;
+    }
+    .how-it-work .refund {
+        margin: 40px auto 0;
+    }
+    .banner .color-overlay,
+    .banner .border-holder {
+        height: 570px;
+    }
+    /* Terms And Conditions */
+    .terms-content {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .main-header {
+        font-size: 24px;
+    }
+    .sub-header {
+        font-size: 14px;
+    }
+    .banner-header .banner .color-overlay,
+    .banner-header .banner .border-holder {
+        height: 217px;
+    }
+    .cabanas .banner .border-holder {
+        background-image: url('https://cdn.dayaxe.com/HotelImage/landing/dayaxe-book-hotel-cabana-mobile.jpg')
+    }
+    .terms .banner h1 {
+        font-size: 24px;
+    }
+    .terms-content ul, 
+    .terms-content ol {
+        margin-bottom: 45px;
+    }
+    .sub-header {
+        margin-bottom: 35px;
+    }
+    /* Terms And Conditions */
+
+    /* My Account */
+    .row-save {
+        height: auto !important;
+        position: fixed;
+        bottom: 0;
+        padding: 0;
+        border: none;
+        left: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .row-save > div {
+        padding: 0;
+    }
+    .row-save .btn {
+        width: 100%;
+        height: 46px;
+        line-height: 44px;
+        border-radius: 0;
+        display: block;
+    }
+    #main header.ma {
+        height: 62px;
+        background-color: transparent;
+        z-index: 4;
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+        max-width: 160px;
+        margin: 0 auto;
+    }
+    .my-account-page .navbar-brand {
+        display: none;
+    }
+    .ma .title {
+        font-size: 16px;
+        white-space: nowrap;
+        padding-left: 0;
+        margin-top: 20px;
+        width: 140px;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+    }
+    /* My Account */
+
+    /* Featured Product */
+    #owl-product-featured {
+        width: 90%;
+        margin: 0 auto;
+        max-height: 290px;
+    }
+    .product-featured h3 {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 7px auto;
+    }
+    .product-featured h4 {
+        font-size: 14px;
+        margin: 7px auto 40px;
+    }
+    #owl-product-featured .product-info .type {
+        margin: 14px 0 5px 0;
+    }
+    /* Featured Product */
+
+    #owl-product-featured .owl-item.loading {
+        max-height: inherit;
+    }
+}
+@media (max-width: 500px) {
+    .col-pool {
+        padding: 0 15px;
+    }
+    .services .col-pool > .uk-overlay {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .services .col-lg-6,
+    .services .col-md-6 {
+        padding-left: 7px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+    }
+    .services .services-right .col-lg-6,
+    .services .services-right .col-md-6 {
+        left: 6px;
+    }
+    .services .icon-right {
+        margin-left: -13px;
+    }
+}

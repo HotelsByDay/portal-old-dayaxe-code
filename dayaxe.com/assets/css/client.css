@@ -1,0 +1,52 @@
+﻿/*main*/
+.page-client .container {
+    max-width: 960px;
+}
+/*main*/
+/* header */
+.page-client .navbar-default {
+    background-color: #13c1f4;
+}
+.page-client #page-wrapper #main .wrapper-body {
+    max-width: 960px;
+    margin: 0 auto;
+    border: solid 0.5px #F2F1F3;
+    padding: 50px 42px;
+    min-height: 650px;
+}
+
+.page-client #page-wrapper #main header {
+    height: 100px;
+    background-color: #13c1f4;
+}
+
+.page-client #page-wrapper #main header .container {
+    max-width: 960px;
+}
+
+.page-client #page-wrapper #main header h3.title {
+    font-size: 36px;
+    text-align: left;
+    padding-left: 27px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.page-client h4.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4A4A4A;
+    text-transform: none;
+    margin: 40px auto;
+    text-align: left;
+}
+
+/* header */
+
+/* custom */
+
+.page-client h4.title-total-c {
+    margin-bottom: 15px;
+}
+
+/* custom */

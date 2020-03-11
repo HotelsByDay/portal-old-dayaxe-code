@@ -1,0 +1,228 @@
+﻿.reviews-detail {
+    width: 100%;
+}
+.reviews-detail * {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.reviews-detail .glyphicon {
+    font-family: 'Glyphicons Halflings' !important;
+}
+.margin-t-20 {
+    margin-top: 20px;
+}
+hr.dotted {
+    border-top: dotted 1px #dcd9dd;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+review .rating .star {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: auto;
+    margin: 0;
+}
+review .rate-by {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5C5C5C;
+}
+review .rate-date {
+    font-size: 10px;
+    color: #9B9B9B;
+}
+review .review-item {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: solid 0.5px #F2F1F3;
+}
+review .shortcontent {
+    display: inline;
+}
+review .allcontent {
+    display: inline;
+}
+review .morelink {
+    text-decoration: underline;
+    font-size: 14px;
+    color: #13C1F4;
+    padding-left: 5px;
+}
+review .btn-blue-new {
+    height: 30px;
+    line-height: 26px !important;
+    font-size: 17px;
+    font-weight: bold;
+    color: #13C1F4;
+    text-transform: none;
+}
+review .review-item:first-child {
+    margin-top: 20px;
+}
+review .review-item:last-child {
+    border: none !important;
+    margin-bottom: 0;
+}
+#main > header {
+    height: 70px;
+}
+
+/* DayAxe Reviews */
+header .title-reviews {
+    font-size: 36px;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 500;
+}
+#main header.reviews {
+    height: 80px;
+    background-color: #13c1f4;
+}
+.btn-reviews {
+    width: 430px;
+    height: 30px;
+    border: solid 2px #9b9b9b;
+    padding: 0;
+}
+.open>.btn-reviews:focus,
+.btn-reviews:hover {
+    background-color: inherit !important;
+    box-shadow: none !important;
+}
+.btn-reviews span b,
+.btn-reviews span {
+    color: #9b9b9b;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn-reviews .reviews-value {
+    width: 95%;
+    text-align: left;
+    float: left;
+    padding-left: 5px;
+    height: 28px;
+    line-height: 26px;
+}
+.btn-reviews .glyphicon {
+    width: 5%;
+    float: right;
+    font-size: 22px;
+    position: absolute;
+    right: 5px;
+    background-color: white;
+}
+.reviews-page .filter-button {
+    width: 100px;
+    height: 30px;
+    line-height: 28px !important;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+}
+.hotel-reviews a {
+    height: 35px;
+    line-height: 35px;
+}
+.total-reviews span {
+    font-size: 14px;
+    font-weight: 300;
+    color: #4A4A4A;
+}
+.total-reviews b,
+.total-reviews {
+    font-size: 14px;
+    color: #4A4A4A;
+}
+/*.title-reviews,*/
+/*.reviews-d {
+    max-width: 865px;
+}*/
+/*.reviews-detail {
+    max-width: 865px;
+    padding: 0;
+}*/
+.review-item .description {
+    font-size: 14px;
+    color: #4A4A4A;
+    font-weight: 300;
+}
+/* DayAxe Reviews */
+@media (max-width: 992px) {
+    /*#NavHeader, footer {
+        display: none !important;
+    }*/
+    #main > header {
+        margin-top: 0;
+    }
+    .reviews-d {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .btn-reviews {
+        max-width: 235px;
+    }
+    .filter-button {
+        float: right;
+    }
+    .btn-reviews .reviews-value {
+        width: auto;
+        max-width: 90%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .btn-reviews .glyphicon {
+        width: 20px;
+    }
+    .btn-reviews {
+        width: 100%;
+        max-width: 100%;
+    }
+    .reviews-detail .btn-group {
+        width: 70%;
+    }
+    #main header.reviews {
+        height: 60px;
+        background-color: transparent;
+        z-index: 4;
+        max-width: 160px;
+        margin: 0 auto;
+    }
+    header .title-reviews {
+        font-size: 16px;
+        white-space: nowrap;
+        padding-left: 0;
+        margin-top: 20px;
+        position: fixed;
+        width: 140px;
+        margin-left: 5px;
+    }
+    .total-reviews {
+        padding-bottom: 10px;
+        border-bottom: solid 0.5px #F2F1F3;
+        display: block;
+    }
+    .reviews-detail {
+        padding: 0;
+    }
+}
+@media (max-width: 430px) {
+    .btn-reviews {
+        width: 270px;
+        max-width: 270px;
+    } 
+}
+@media (max-width: 375px) {
+    .btn-reviews {
+        width: 220px;
+        max-width: 220px;
+    }
+    .reviews-page .filter-button {
+        width: 80px;
+    }
+}
+@media (max-width: 320px) {
+    .btn-reviews {
+        width: 210px;
+    }
+}

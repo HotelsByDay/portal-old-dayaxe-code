@@ -1,0 +1,1144 @@
+h1, h2, h3, h4, h5, h6, p, body, #main {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#main-tabs-offer,
+#main-tabs {
+    padding: 0;
+    margin: 0;
+}
+#main-tabs-offer li,
+#main-tabs li {
+    padding: 0; 
+    border-top: 1px solid #D2D2D2;
+    border-right: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+}
+#main-tabs-offer li:first-child,
+#main-tabs li:first-child {
+    border-left: solid 1px #D2D2D2;
+}
+#main-tabs-offer li:last-child,
+#main-tabs li:last-child {
+    border-right: solid 1px #D2D2D2;
+}
+#main-tabs-offer li a,
+#main-tabs li a {
+    display: block;
+    background: #F6F6F6;
+    color: #666666;
+    line-height: 23px;
+    height: 47px;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 3px solid transparent !important;
+}
+#main-tabs-offer li a:hover,
+#main-tabs li a:hover {
+    color: #666666;
+}
+#main-tabs-offer li.active a,
+#main-tabs li.active a {
+    background: #F5FFFC;
+    color: #666666;
+    font-weight: bold;
+    border-bottom: 3px solid #13C1F4 !important;
+}
+#main-tabs li:first-child img {
+    margin-top: 8px;
+}
+#main-tabs li img.event,
+#main-tabs li img.dining {
+    margin-top: 10px;
+}
+#main-tabs li img.sports-club,
+#main-tabs li img.spa-club {
+    margin-top: 5px;
+}
+#main-tabs li img.pick-up {
+    margin-top: 3px;
+}
+#main-tabs li a img, #main-tabs li a span {
+    display: inline-block;
+    vertical-align: middle;
+}
+#main-tabs li a span {
+    display: block;
+    line-height: 11px;
+}
+#main-tabs li a img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+#main-tabs li a img.event ,
+#main-tabs li a img.dining {
+    height: 26px;
+    width: auto;
+}
+#main .owl-carousel { padding: 5px; margin: 0;}
+#main .owl-carousel .item { 
+    position: relative;
+    height: 485px;
+    border-top: none;
+}
+#main .owl-carousel .item img {
+     display: block; 
+     width: 100%; 
+     height: auto;
+    background-color: #d1d1d1;
+}
+#main .owl-item.loading {
+    position: relative;
+    z-index: -1;
+    max-width: 100%;
+    height: 486px;
+}
+.owl-carousel .owl-wrapper-outer {
+    height: 485px;
+}
+#main .owl-item.loading .btn-passleft {
+    display: none;
+}
+#main .owl-carousel .owl-controls .owl-buttons div {
+    margin: 0 5px !important;
+    padding: 10px;
+    position: absolute;
+    top: 32%;
+}
+#main .owl-carousel .item .overlay-text {
+    line-height: 47px;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 20px;
+}
+#main-tabs-content {
+    padding: 0 15px;
+    margin: 22px 22px 0 22px;
+}
+#main-tabs-content .services {
+    display: block;
+    list-style: disc;
+    padding: 0;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #5C5C5C;
+}
+#main-tabs-content .services li {
+    display: list-item;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-left: 16px;
+    text-align: left;
+    width: 95%;
+}
+ #main-tabs-content .services li span {
+     color: #666666;
+ }
+#main-tabs-content .services li:nth-child(even) {
+    /*margin-left: 27px;*/
+}
+#main-tabs-content .services li:first-child {
+    padding-left: 0;
+}
+#main-tabs-content .hours {
+    display: inline-block;
+    width: 70%;
+}
+#main-tabs-content .hours .name {
+    display: inline-block;
+    vertical-align: top;
+    color: #666666;
+    font-size: 14px;
+}
+#main-tabs-content .hours .value {
+    display: inline-block;
+    vertical-align: middle;
+    width: 78%;
+    color: #4A4A4A;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 10px;
+}
+#main-tabs-content .hotel-type {
+    float: right;
+    background: #13C1F4;
+    color: #000;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 18px;
+    padding: 0 10px;
+}
+#main-tabs-content .tab-content .tab-pane > .row > div {
+    padding: 0;
+}
+#main .divider {
+    width: 80%;
+    margin: 30px auto;
+}
+.room_passleft {
+    top: 5px;
+    right: 10px;
+    position: absolute;
+}
+#main .btn-passleft {
+    background-color: #fafb24;
+    border-color: #fafb24;
+    border-radius: 0;
+    color: #000;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 10px;
+    height: 15px;
+    line-height: 6px;
+    text-transform: uppercase;
+}
+.book {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.book .note {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #4A4A4A;
+    line-height: 12px;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    font-style: italic;
+    white-space: nowrap;
+    background-color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+}
+.book .note:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #D2D2D2;
+    background: #F7F4F4;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+#isWaitingList {
+    margin-bottom: 10px;
+}
+.book #AnchorButton, 
+.book .AnchorButton {
+    display: block;
+    line-height: 46px;
+    background: #13C1F4;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+.book #AnchorButton:hover, 
+.book #AnchorButton:focus,
+.book .AnchorButton:hover,
+.book .AnchorButton:focus
+ { text-decoration: none; }
+a.btngray {
+    background: #d0d4d3 none repeat scroll 0 0 !important;
+}
+.owl-theme .owl-controls {
+    margin-top: 0px;
+}
+.opacity {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+
+  /* Netscape */
+  -moz-opacity: 0.5;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+
+  /* Good browsers */
+  opacity: 0.5;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.main-tab-content label,
+.product-detail label {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+.main-tab-content {
+    margin: 0;
+}
+
+#main-tabs-content span.value,
+#main-tabs-content label.hour {
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+.product-detail .row > div.padding-t-30,
+.padding-t-30 {
+    padding-top: 30px;
+}
+
+.padding-a-22 {
+    padding: 22px 5px;
+}
+.book .row {
+    margin: 0px;
+}
+.book .col-book-top {
+    position: relative;
+    left: -15px;
+}
+.book .opacity {
+    background-color: #000;
+}
+.book .book-top {
+    display: none;
+}
+.product-detail {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.product-detail > .row > div.col-md-8 {
+    padding-left: 42px;
+    padding-right: 42px;
+}
+.product-detail > .row > div.col-md-4 {
+    padding: 0;
+}
+.product-detail .row > div.col-data ul {
+    padding-left: 15px;
+}
+.product-detail .row.item > div {
+    padding-left: 15px;
+    padding-right: 0;
+}
+.book .book-now {
+    border: solid 1px #9b9b9b;
+    border: none;
+    position: relative;
+    top: 2px;
+}
+
+.wrapper.style5 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+.today {
+    width: 72px;
+    height: 72px;
+    position: relative;
+    background-color: #14c2f4;
+    right: 0;
+    color: #ffffff;
+    margin: 0 13px;
+    display: inline-block;
+}
+.calendar .today {
+    top: 0px;
+}
+.today div {
+    width: 100%;
+    text-align: center;
+}
+
+.today .month {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.today .date {
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.today .day {
+    font-size: 12px;
+    font-weight: 300;
+}
+.wrapper-body > .row {
+    max-width: 100%;
+    padding-right: 0;
+    margin: 0 auto;
+}
+
+.wrapper-body > .row > .tab-content {
+    padding: 0;
+}
+
+
+#cancelledBookingModal .modal-title,
+#requestAccessModal .modal-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #4A4A4A;
+}
+
+#cancelledBookingModal .btn,
+#requestAccessModal .btn {
+    margin: 0 auto 0;
+    display: block;
+    line-height: 46px;
+    background: #13c1f4;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    min-width: 250px;
+}
+
+#cancelledBookingModal .location,
+#requestAccessModal .location {
+    padding: 100px 20px;
+    color: #A1A1A1;
+    font-size: 20px;
+}
+
+#cancelledBookingModal .modal-body,
+#requestAccessModal .modal-body {
+    padding: 0;
+}
+
+#cancelledBookingModal .btn,
+#requestAccessModal .btn {
+    border: none
+}
+#cancelledBookingModal .modal-content,
+#requestAccessModal .modal-content {
+    background-color: #FBFBFB;
+}
+
+#dailyLimitReachModal .modal-title,
+#addToWaitingListModal .modal-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #4A4A4A;
+    text-transform: none;
+}
+
+#dailyLimitReachModal .btn,
+#addToWaitingListModal .btn {
+    margin: 30px auto 15px;
+    line-height: 42px;
+    background: #13c1f4;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    min-width: 250px;
+}
+
+#dailyLimitReachModal .location,
+#addToWaitingListModal .location {
+    padding: 20px;
+    color: #4A4A4A;
+    font-size: 20px;
+}
+#dailyLimitReachModal .location {
+    font-size: 16px;
+}
+
+#addToWaitingListModal .location .terms-of-use {
+    color: #9B9A9B;
+    font-size: 10px;
+}
+
+#addToWaitingListModal .location .terms-of-use a {
+    text-decoration: underline;
+    color: #13c1f4;
+}
+
+#addToWaitingListModal .location .description {
+    color: #4A4A4A;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+#dailyLimitReachModal .modal-body,
+#addToWaitingListModal .modal-body {
+    padding: 0;
+}
+
+#addToWaitingListModal .location input[type=text] {
+    width: 340px;
+    margin: 0 auto 20px;
+    background-color: white;
+    border: solid 1px #969696;
+}
+
+#addToWaitingListModal .location .error-message {
+    font-size: 12px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+#dailyLimitReachModal .modal-content,
+#addToWaitingListModal .modal-content {
+    background-color: #FBFBFB;
+}
+review .rating .star {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: auto;
+    margin: 0;
+}
+review .rate-by {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5C5C5C;
+}
+review .rate-date {
+    font-size: 10px;
+    color: #9B9B9B;
+}
+review .review-item {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: solid 0.5px #F2F1F3;
+}
+review .shortcontent {
+    display: inline;
+}
+review .allcontent {
+    display: inline;
+}
+review .morelink {
+    text-decoration: underline;
+    font-size: 14px;
+    color: #13C1F4;
+    padding-left: 5px;
+}
+.product-page .btn-blue-new {
+    height: 30px;
+    line-height: 26px !important;
+    font-size: 17px;
+    font-weight: bold;
+    color: #13C1F4;
+    text-transform: none;
+}
+review .review-item:last-child {
+    border: none !important;
+    margin-bottom: 0;
+}
+.product-detail b {
+    color: #666666;
+}
+.msrp {
+    font-size: 14px;
+    position: relative;
+    top: 23px;
+}
+.upto-guest {
+    top: 0;
+    text-decoration: none;
+}
+.book-top .msrp {
+    top: 0;
+}
+#priceDesktop {
+    width: 100%;
+    text-align: right;
+    margin-top: 0;
+    padding: 0 30px;
+    line-height: 60px;
+}
+#priceDesktop.has-promo {
+    margin-top: 0;
+    line-height: 18px;
+}
+#priceDesktop span {
+    font-size: 12px;
+    clear: both;
+}
+#priceDesktop div,
+#priceDesktop.has-promo div {
+    float: left;
+    font-weight: 700;
+    margin-top: 2px;
+}
+#priceDesktop.has-promo div span {
+    font-weight: normal;
+}
+#priceDesktop span.msrp {
+    float: left;
+    clear: both;
+    display: block;
+    width: 100%;
+    text-align: left;
+    line-height: 12px;
+    margin-top: 15px;
+}
+.max-guest {
+    font-size: 10px;
+    font-weight: bold;
+    color: #13C1F4;
+    text-transform: uppercase;
+}
+.product-detail .bell-row .blue,
+.book .book-now .blue {
+    font-size: 11px;
+    color: #00AC12;
+    text-align: left;
+    font-style: italic;
+    font-weight: 300;
+}
+.product-redemtion img,
+.book .product-redemtion img {
+    height: 30px;
+}
+.product-page .product-redemtion .image {
+    display: table-cell;
+    width: 55px;
+    padding-left: 15px;
+}
+.product-page .product-redemtion .max-guest {
+    display: table-cell;
+    padding-bottom: 1px;
+    vertical-align: text-bottom;
+    position: relative;
+    bottom: 3px;
+}
+.product-page .product-redemtion img {
+    height: 27px;
+}
+.product-page .product-redemtion .tickets img {
+    height: 10px;
+    position: relative;
+    float: right;
+    top: 9px;
+    right: 8px;
+}
+/*.product-redemtion > div {
+    padding-left: 5px;
+    padding-right: 5px;
+}*/
+.product-redemtion .description {
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+    margin: 5px auto;
+}
+.product-redemtion .redemption-note {
+    font-size: 10px;
+    color: #666;
+    font-weight: normal;
+}
+
+.product-redemtion .open-date,
+.product-redemtion .date-input{
+    width: 92px;
+    height: 52px;
+    line-height: 52px;
+    background-color: white;
+    color: #b3b3b3;
+    border: solid 2px #9b9b9b;
+    display: inline-block;
+    font-size: 9px;
+}
+.product-redemtion #checkindatem,
+.product-redemtion #checkindated {
+    border: solid 2px #9b9b9b;
+    max-width: 136px;
+    height: 26px;
+    line-height: 26px;
+    margin: 2px auto;
+    float: left;
+}
+
+.product-redemtion #checkindatem .input-group-addon,
+.product-redemtion #checkindated .input-group-addon {
+    padding: 2px 12px;
+}
+.product-redemtion #checkindatem input,
+.product-redemtion #checkindated input {
+    background: none;
+    height: 26px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 7px;
+    color: #9b9b9b;
+}
+
+.product-redemtion #checkindatem .input-group-addon,
+.product-redemtion #checkindated .input-group-addon {
+    background: none;
+    border: none;
+    width: 18px;
+    padding: 0;
+}
+.product-redemtion #checkindatem .input-group-addon img,
+.product-redemtion #checkindated .input-group-addon img {
+    height: 10px;
+    position: relative;
+    left: -8px;
+    width: 18px;
+}
+.product-redemtion .date-input.selected,
+.product-redemtion .open-date.selected {
+    background-color: #faff00;
+    color: #000000;
+    border-color: #faff00;
+    font-weight: bold;
+    display: inline-block;
+}
+.product-redemtion .date-input {
+    margin-bottom: 19px;
+}
+.product-redemtion .label-or {
+    position: relative;
+    top: -10px;
+    font-size: 12px !important;
+}
+.product-redemtion .open-date {
+    line-height: 14px;
+}
+.product-redemtion .label-q {
+    position: relative;
+    float: right;
+    top: -62px;
+    right: -32px;
+}
+.book-now .col-blue {
+    padding-right: 0;
+}
+.book-product .msrp {
+    text-decoration: none;
+    top: -3px;
+}
+
+.book-product #priceDesktop {
+    margin-top: 15px;
+}
+.book-product .has-promo {
+    margin-top: 0 !important;
+}
+.has-promo .hidden {
+    display: block !important;
+}
+.has-promo .msrp i{
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 14px;
+}
+.has-promo span {
+    font-size: 14px;
+}
+#openDateTicketModal .modal-title {
+    font-weight: bold;
+    text-transform: none;
+}
+#openDateTicketModal .location ul {
+    margin-left: 15px;
+    padding-left: 20px;
+}
+#openDateTicketModal .location ul li {
+    text-align: left;
+}
+#openDateTicketModal .location b {
+    color: #000000;
+}
+#openDateTicketModal .location {
+    padding-bottom: 50px;
+}
+#openDateTicketModal .location .blue {
+    font-weight: bold;
+}
+#openDateTicketModal .button-submit .btn:hover,
+#openDateTicketModal .button-submit .btn {
+    width: 150px;
+    height: 48px;
+    line-height: 38px;
+    background: #2fb3e7;
+    color: #fff;
+}
+.related-product-list .item .rating {
+    color: #949494;
+    margin-top: 6px;
+    font-size: 11px;
+    line-height: 12px;
+}
+.related-product-list .item .rating span {
+    display: none;
+}
+.related-product-list .item .rating img {
+    display: inline;
+    width: 11px;
+    margin-top: -3px;
+}
+.related-product-list .item .price {
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.related-product-list .item .price span {
+    font-size: 10px;
+    font-weight: normal;
+}
+.more-at-h {
+    text-transform: none;
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: left;
+    color: #4A4A4A;
+}
+.related-product-list .item{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.related-product-list .item h5 {
+    color: #13C1F4;
+    font-size: 16px;
+    font-weight: bold;
+}
+.related-product-list .item .item-info {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
+#main-tabs-offer {
+    width: 100%;
+}
+#main-tabs-offer li a img {
+    float: left;
+    margin-top: 7px;
+}
+#main-tabs-offer li a div {
+    width: 90px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+}
+.row-info {
+    margin-bottom: 30px;
+}
+.row-info > div > div {
+    margin: 0 auto;
+    text-align: center;
+}
+.row-info > div > div img {
+    margin: 0 auto;
+    width: 34px;
+}
+.row-info > div > div .title {
+    font-size: 10px;
+    font-weight: bold;
+    color: #13C1F4;
+    text-transform: uppercase;
+    display: block;
+    margin: 5px auto;
+}
+.row-info > div > div .des {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #666666;
+    font-weight: bold;
+}
+.tickets button {
+    border: solid 2px #9b9b9b;
+    max-width: 136px;
+    height: 30px;
+    line-height: 28px;
+    margin: 2px auto;
+    padding: 0;
+    font-size: 12px;
+    color: #4A4A4A;
+    width: 136px;
+    left: 2px;
+}
+.tickets button:hover {
+    background-color: transparent;
+    box-shadow: none;
+}
+.tickets button .glyphicon {
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+}
+.tickets button .current-value {
+    padding: 0 1em;
+    position: relative;
+    top: -2px;
+    color: #9b9b9b;
+    display: block;
+    float: left;
+}
+.tickets .ticket-capacity {
+    max-height: 250px;
+    overflow-y: auto;
+    margin-top: 0;
+}
+.tickets .ticket-capacity a {
+    cursor: pointer;
+    height: 50px;
+    line-height: 46px;
+    border: solid 1px #ECF8FC;
+}
+.row-total-price label {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    font-size: 14px !important;
+    float: left;
+    margin-top: 11px;
+}
+.row-total-price .total-price {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 15px;
+    color: #4A4A4A;
+}
+.row-total-price .total-price span {
+    display: block;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: none;
+}
+.hotel-type {
+    width: 72px;
+    height: 16px;
+    line-height: 16px;
+    background-color: #13c1f4;
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 15px;
+}
+header.product .location > div {
+    display: inline;
+}
+/*Similar Product*/
+.row-similar-product {
+    margin-bottom: 55px;
+    text-transform: none;
+    font-weight: 400;
+}
+.title-c-bo {
+    margin-bottom: 18px;
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4A4A4A;
+}
+#main .row-similar-product > div {
+    margin-left: 30px;
+}
+#main #owl-product .owl-controls .owl-buttons .owl-prev {
+    left: -45px;
+}
+#main #owl-product .owl-controls .owl-buttons .owl-next {
+    right: -45px;
+}
+#owl-product .product-info {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+#owl-product .product-info .row .col-md-8 {
+    padding-left: 0;
+}
+#owl-product .product-info .row .col-md-4 {
+    padding-right: 0;
+}
+#owl-product .product-info .type {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #13C1F4;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+#owl-product .product-info .hotel-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #4A4A4A;
+    margin-bottom: 5px;
+}
+#owl-product .product-info .customer-name {
+    font-size: 12px;
+    color: #9B9B9B;
+    margin-bottom: 6px;
+}
+#owl-product .product-info .rating img {
+    display: block;
+    float: left;
+    width: 13px;
+    background-color: transparent;
+}
+#owl-product .product-info .rating  span {
+    padding-left: 6px;
+    font-size: 10px;
+    color: #9B9B9B;
+}
+#owl-product .product-info .rating span.t {
+    display: none;
+}
+#owl-product .product-info .row {
+    margin: 0;
+}
+#main #owl-product .item {
+    height: auto;
+    border: none;
+    margin: 0;
+}
+#owl-product .owl-wrapper-outer {
+    height: auto;
+}
+#main #owl-product .owl-item.loading {
+    height: auto;
+}
+#main #owl-product .item img {
+    margin-bottom: 8px;
+}
+#owl-product .product-info .price {
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    float: right;
+    clear: both;
+    line-height: 18px;
+    position: relative;
+    top: -5px;
+    color: #4A4A4A;
+}
+#owl-product .product-info .max-guest {
+    font-size: 10px;
+    color: #4A4A4A;
+    text-transform: none;
+    float: right;
+    font-weight: 400;
+}
+#owl-product .product-item {
+    cursor: pointer;
+}
+/*Similar Product*/
+
+/* Slider */
+.toggle-iphone .toggle-slide {
+    box-shadow: 0 0 0 2px #ECECEC;
+}
+.toggle-iphone .toggle-off {
+    box-shadow: inset -2px 2px 5px rgba(210, 211, 211, 1);
+    color: #d0d0d0;
+}
+.toggle-iphone .toggle-blob {
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 1), inset 0 0 0 2px white, 0 0 3px rgba(0, 0, 0, 0.3);
+}
+/* Slider */
+
+/* Fine Print*/
+.col-fine-print {
+    border: solid 1px #F2F1F3;
+    margin-top: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.header-fine-print {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4A4A4A;
+    text-transform: none;
+    margin-top: 27px;
+    margin-left: 10px;
+}
+.col-fine-print ul {
+    margin: 10px 30px 30px;
+}
+.col-fine-print ul li{
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+}
+
+.col-fine-print ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #13c1f4;
+    text-decoration: underline;
+}
+/* Fine Print*/
+/* FAQs */
+.faqs {
+    list-style: none;
+}
+.faq-collapse:before {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: left;
+    margin-left: -20px;
+    font-weight: normal;
+    color: #a3a3a3;
+}
+/* Icon when the collapsible content is hidden */
+.faq-collapse.collapsed:before {
+    content: "\e080";
+    color: #a3a3a3;
+}
+.col-fine-print ul.faqs li {
+    margin-bottom: 5px;
+}
+.col-fine-print ul.faqs li a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+.col-fine-print ul.faqs li div * {
+    color: #4A4A4A;
+}
+/* FAQs */

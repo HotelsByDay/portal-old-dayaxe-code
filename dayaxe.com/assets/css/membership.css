@@ -1,0 +1,193 @@
+﻿.membership-page .navbar-default {
+    background-color: #13c1f4;
+}
+#main > header {
+    height: 70px;
+}
+header .title {
+    font-size: 36px;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 500;
+}
+/*#main header.reviews {
+    height: 80px;
+    background-color: #13c1f4;
+}*/
+#NavHeader {
+    display: block !important;
+}
+/*.title-membership {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4A4A4A;
+    text-transform: none;
+    text-align: center;
+    margin: 25px auto;
+}*/
+h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #13c1f4;
+    margin-bottom: 5px;
+}
+.your-plan-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4A4A4A;
+    text-transform: none;
+}
+hr.c {
+    border-top: 0.5px solid #ededed;
+    margin: 25px 0;
+}
+.btn-cancel-membership,
+.btn-cancel-membership:hover {
+    font-size: 10px;
+    font-weight: 400;
+    color: #c20015;
+}
+.btn-active-membership,
+.btn-active-membership:hover {
+    font-size: 10px;
+    font-weight: 400;
+    color: #00AC12;
+} 
+.faq-membership {
+    font-size: 10px;
+    color: #4A4A4a;
+    font-weight: 300;
+}
+.faq-membership a,
+.faq-membership a:hover {
+    font-size: 10px;
+    text-decoration: underline;
+    color: #13c1f4;
+}
+.plan-rules ul {
+    margin-left: 35px;
+    font-size: 12px;
+}
+.plan-rules ul li a,
+.plan-rules ul li a:hover {
+    font-size: 12px;
+    color: #13c1f4;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.font-b-14 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4A4A4A;
+}
+.btn-active-now {
+    height: 30px;
+    line-height: 22px !important;
+    border: none !important;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 13px auto 25px;
+    width: 125px;
+}
+.valid,
+.next-cycle {
+    font-size: 14px;
+}
+.error-message {
+    font-size: 12px;
+    color: #d0021b;
+    margin-bottom: 15px;
+    display: block;
+}
+.error-message a {
+    font-size: 10px;
+    text-decoration: underline;
+    color: #13c1f4;
+}
+.success-message {
+    font-size: 12px;
+    color: green;
+    margin-bottom: 15px;
+    display: block;
+}
+.img-gold-pass {
+    max-width: 560px;
+    width: 100%;
+}
+#activeMembershipModal .modal-title,
+#cancelMembershipModal .modal-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #4A4A4A;
+    text-align: center;
+    text-transform: none;
+}
+#activeMembershipModal .btn,
+#cancelMembershipModal .btn {
+    height: 46px;
+    line-height: 44px;
+    background: white;
+    color: #CCC;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 20px;
+    margin: 30px auto 0;
+    border-color: #CCC;
+    box-shadow: none;
+    text-align: center;
+    width: 140px;
+    display: block;
+}
+#activeMembershipModal .btn-save,
+#cancelMembershipModal .btn-save {
+    background: #13c1f4;
+    color: #fff;
+    border-color: #13C1F4;
+}
+/* DayAxe Reviews */
+@media (max-width: 992px) {
+    footer {
+        display: none !important;
+    }
+    #main > header {
+        margin-top: 0;
+    }
+
+    /*#main header.reviews {
+        height: 60px;
+        background-color: transparent;
+        z-index: 4;
+        max-width: 160px;
+        margin: 0 auto;
+    }*/
+
+    /*header .title {
+        font-size: 16px;
+        white-space: nowrap;
+        padding-left: 0;
+        margin-top: 20px;
+        position: fixed;
+        width: 140px;
+        margin-left: 5px;
+    }*/
+    /*#NavHeader .navbar-brand {
+        display: none;
+    }*/
+    #activeMembershipModal .modal-body,
+    #cancelMembershipModal .modal-body {
+        padding-bottom: 70px;
+    }
+    #activeMembershipModal .button-submit a,
+    #activeMembershipModal .button-submit button,
+    #cancelMembershipModal .button-submit a,
+    #cancelMembershipModal .button-submit button {
+        margin: 0;
+        width: 100%;
+    }
+    /*#activeMembershipModal > div,
+    #cancelMembershipModal > div {
+        margin-top: 0;
+    }*/
+    
+}

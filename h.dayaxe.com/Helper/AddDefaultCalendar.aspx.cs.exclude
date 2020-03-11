@@ -1,0 +1,115 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web.UI;
+using DayaxeDal;
+using DayaxeDal.Extensions;
+using DayaxeDal.Repositories;
+using WebGrease.Css.Extensions;
+
+namespace h.dayaxe.com
+{
+    public partial class AddDefaultCalendar : Page
+    {
+        private List<KeyValuePair<string, string>> _productTypes;
+        private DailyPassLimit _dailyPassLimit;
+
+        private readonly BlockedDateRepository _blockedDateHelper = new BlockedDateRepository();
+
+
+        protected void Page_Init(object sender, EventArgs e)
+        {
+            _productTypes = new List<KeyValuePair<string, string>>
+            {
+                new KeyValuePair<string, string>("Hotel Day Pass", "0"),
+                new KeyValuePair<string, string>("Cabanas", "1"),
+                new KeyValuePair<string, string>("Spa Passes", "2"),
+                new KeyValuePair<string, string>("Daybeds", "3")
+            };
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            DateTime startDate = new DateTime(2017, 1, 1);
+
+            _blockedDateHelper.HotelList.ForEach(hotel =>
+            {
+                _dailyPassLimit = _blockedDateHelper.GetDailyPassLimit(hotel.HotelId);
+
+                for (var i = 0; i <= 12; i++)
+                {
+                    var curMonth = startDate.AddMonths(i);
+                    var currentDatesInMonth = curMonth.GetDates();
+
+                    var blockedDates = _blockedDateHelper.Get(x => x.Date.HasValue &&
+                                                                   currentDatesInMonth.Contains(x.Date.Value.Date) &&
+                                                                   x.HotelId == hotel.HotelId);
+
+                    _productTypes.ForEach(productType =>
+                    {
+                        if (
+                            _blockedDateHelper.ProductList.Count(
+                                x => x.HotelId == hotel.HotelId && x.ProductType.ToString() == productType.Value) > 0)
+                        {
+                            var exists =
+                                blockedDates.Where(b => b.ProductTypeId.ToString() == productType.Value).ToList();
+
+                            var notExists = currentDatesInMonth
+                                .Where(d => !exists.Where(d1 => d1.Date.HasValue &&
+                                                                d1.ProductTypeId.ToString() == productType.Value)
+                                    .Select(d1 => d1.Date.Value.Date)
+                                    .Contains(d.Date))
+                                .ToList();
+
+                            // Add default value on Current Month
+                            var newDates = new List<BlockedDates>();
+                            switch (productType.Value)
+                            {
+                                case "0":
+                                    newDates = AddDefaultOpenBlockedDates(hotel.HotelId, notExists,
+                                        (int) Enums.ProductType.DayPass, _dailyPassLimit.DailyPass,
+                                        _dailyPassLimit.DailyPrice);
+                                    break;
+                                case "1":
+                                    newDates = AddDefaultOpenBlockedDates(hotel.HotelId, notExists,
+                                        (int) Enums.ProductType.Cabana, _dailyPassLimit.CabanaPass,
+                                        _dailyPassLimit.CabanaPrice);
+                                    break;
+                                case "2":
+                                    newDates = AddDefaultOpenBlockedDates(hotel.HotelId, notExists,
+                                        (int) Enums.ProductType.SpaPass, _dailyPassLimit.SpaPass,
+                                        _dailyPassLimit.SpaPrice);
+                                    break;
+                                case "3":
+                                    newDates = AddDefaultOpenBlockedDates(hotel.HotelId, notExists,
+                                        (int) Enums.ProductType.Daybed, _dailyPassLimit.DaybedPass,
+                                        _dailyPassLimit.DaybedPrice);
+                                    break;
+                            }
+                            _blockedDateHelper.Add(newDates);
+                        }
+                    });
+                }
+            });
+        }
+
+        private List<BlockedDates> AddDefaultOpenBlockedDates(int hotelId, List<DateTime> dates, int productType, int defaultCapacity, double defaultPrice)
+        {
+            var newDates = new List<BlockedDates>();
+            dates.ForEach(date =>
+            {
+                newDates.Add(new BlockedDates
+                {
+                    Date = date,
+                    Capacity = defaultCapacity,
+                    CustomPrice = defaultPrice,
+                    HotelId = hotelId,
+                    ProductTypeId = productType,
+                    IsActive = false
+                });
+            });
+
+            return newDates;
+        }
+    }
+}

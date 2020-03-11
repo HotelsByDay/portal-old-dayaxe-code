@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+  <connectionStrings>
+    <add name="DayaxeConnectionString" providerName="System.Data.SqlClient" connectionString="Data Source=localhost;Initial Catalog=db_dayaxestage;User Id=user;Password=pass;" />
+  </connectionStrings>
+  <appSettings>
+    <add key="defaultSendSurveyEmail" value="team@dayaxe.com" />
+    <add key="defaultSendFromEmail" value="stage.bookings@dayaxe.com" />
+    <add key="cdnImageUrlDefault" value="https://cdn.dayaxe.com" />
+    <add key="defaultImageUrlSendEmail" value="https://stage.dayaxe.com" />
+    <add key="reminderAlertTime" value="9:00" />
+    <add key="salesReportSendDateTime" value="01 10:00" />
+    <add key="sendEmailSurveyAfterMinutes" value="5" />
+    <add key="termsUrl" value="http://land.dayaxe.com/terms" />
+
+    <add key="clientUrlDefault" value="https://stage.dayaxe.com" />
+    <add key="adminUrlDefault" value="https://h.stage.dayaxe.com" />
+    <add key="hoursPassValid" value="720" />
+
+    <add key="forPartnerLink" value="http://hotels.dayaxe.com/signup" />
+    <add key="hostLink" value="https://h.stage.dayaxe.com" />
+
+    <add key="stripeApiKey" value="sk_test_r4Ixm5BUaA6fJrpkwltGvbVs" />
+    <add key="stripePublishableKey" value="pk_test_XlyzuDI8NweFB2gYBQXipuu6" />
+
+    <add key="klaviyoPrivateApiKey" value="pk_8f136176dbc30f2d5cfce0e49dc7c5d257" />
+    <add key="klaviyoApiKey" value="NC3z3E" />
+    <add key="klaviyoListId" value="K6XcQR" />
+    <add key="klaviyoWaittingListId" value="MBCrac" />
+    <add key="klaviyoNewsletterListId" value="K6XcQR" />
+
+    <add key="cloudinaryCloud" value="vietluyen" />
+    <add key="cloudinaryApiSecret" value="Si2Q2D3dxjqgya-Rl7-lZ0cy99Q" />
+    <add key="cloudinaryApiKey" value="385557456569739" />
+    <add key="cloudinaryApiBaseUrl" value="https://api.cloudinary.com/v1_1/vietluyen" />
+
+    <add key="sendgridApiKey" value="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" />
+    <add key="sendgridEmailNewAccount" value="dd8c7dd4-8b97-4f1a-947b-80d92a849047" />
+    <add key="sendgridEmailBookingConfirmation" value="3b72904b-d8a3-4742-830e-acc6ed96a949" />
+    <add key="sendgridEmailBookingconfirmationOfHotel" value="d-720b75e9620244788df56555957a3f7b" />
+    <add key="sendgridEmailBookingAlertOfHotel" value="d-a911e386d3244c998b1b77fc51047e7c" />
+    <add key="sendgridEmailPostPurchaseSurvey" value="b6891dc0-bd04-4996-9647-214552fb9d80" />
+    <add key="sendgridEmailPasswordRecovery" value="739dc30e-88cf-4029-bfc7-76dd796ca674" />
+    <add key="sendgridEmailPasswordCreated" value="e5c9f810-2528-459b-bf5a-d0600ac61df3" />
+    <add key="sendgridEmailRefund" value="d3a8443d-4be2-4ae9-abc3-32612a2ded14" />
+    <add key="sendgridCheckInReminder" value="8499e14e-0e22-4b3f-9638-02de069b00c1" />
+    <add key="sendgridAvailableAddOn" value="8cf35f89-3e98-41bc-901b-f6d0a180310d" />
+    <add key="sendgridAvailableAddOnRedemption" value="75a08a4e-1e76-481f-866e-daf1efb41c14" />
+    <add key="sendgridTicketOpenedUp" value="f09ecf37-82d3-408b-adfc-b44821e18e5c" />
+    <add key="sendgridSendNotifiedSurveyHotel" value="4d24e61c-b395-471b-8bdd-ad1e03ab476d" />
+    <add key="sendgridSendNotifiedSurvey" value="26e5d45c-b170-45a7-9262-4f77f9a4b8fc" />
+    <add key="sendgridHotelReportMonthlySummary" value="782cac08-85ad-4b06-b3ee-e4af79fa943b" />
+    <add key="sendgridEmailSubscriptionConfirmation" value="25831a43-8a81-42d9-9805-7e6d1a5476b7" />
+    <add key="sendgridEmailGoldPassNoShow" value="22c4e7d4-4683-46f5-8bb7-c42b5a16b02a" />
+    <add key="sendgridEmailSubscriptionCancellation" value="d7e13a5f-74ca-4bae-a252-168f1c748e42" />
+    <add key="sendgridEmaileGiftCardConfirmation" value="59b1595a-5d1f-498b-acde-3a5dc091407c" />
+    <add key="sendgridEmaileGiftCardDelivery" value="ea5ffff9-a3e5-496e-9431-17c035575cc0" />
+  </appSettings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="11.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

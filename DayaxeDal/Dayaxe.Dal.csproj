@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80FD8B71-8FFE-4859-BD16-F7963C4D7DEF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>DayaxeDal</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DayaxeDal</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.1.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.7.4137.9688, Culture=neutral, PublicKeyToken=a4292a325f69b123, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.1.7.0\lib\Net40-Client\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.2.16.3.0\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.1.0\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.38.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.38.0\lib\net45\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.AnalyticsReporting.v4, Version=1.38.0.1537, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.AnalyticsReporting.v4.1.38.0.1537\lib\net45\Google.Apis.AnalyticsReporting.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.38.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.38.0\lib\net45\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.38.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.38.0\lib\net45\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.38.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.38.0\lib\net45\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.38.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.38.0\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Stripe.net, Version=10.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stripe.net.10.3.0\lib\net45\Stripe.net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TimeZoneConverter, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TimeZoneConverter.2.0.0\lib\net45\TimeZoneConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="Zlib.Portable, Version=1.11.0.0, Culture=neutral, PublicKeyToken=431cba815f6a8b5b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zlib.Portable.Signed.1.11.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseRepository.cs" />
+    <Compile Include="CacheKeys.cs" />
+    <Compile Include="CacheObject.cs" />
+    <Compile Include="Compare\SubscriptionComparer.cs" />
+    <Compile Include="Compare\ProductComparer.cs" />
+    <Compile Include="Custom\ActualPriceObject.cs" />
+    <Compile Include="Custom\AmentyControl.cs" />
+    <Compile Include="Custom\BookingHistoryCompareObject.cs" />
+    <Compile Include="Custom\ExportBookingObject.cs" />
+    <Compile Include="Custom\FaqResultObject.cs" />
+    <Compile Include="Custom\GoogleTimeZoneObject.cs" />
+    <Compile Include="Custom\InportDiscountObject.cs" />
+    <Compile Include="Custom\InportDiscountObjectMap.cs" />
+    <Compile Include="Custom\ProductSalesReportObject.cs" />
+    <Compile Include="Custom\ReportAvailObject.cs" />
+    <Compile Include="Custom\ReturnSubscriptionInvoiceObject.cs" />
+    <Compile Include="Custom\RevenueItem.cs" />
+    <Compile Include="Custom\SalesReportObject.cs" />
+    <Compile Include="Custom\SaveCalendarObject.cs" />
+    <Compile Include="Custom\StripePaymentFailedInsertOrUpdate.cs" />
+    <Compile Include="Custom\SurveyResponseObject.cs" />
+    <Compile Include="Custom\UpdateQuantityObject.cs" />
+    <Compile Include="Data\Amenties.cs" />
+    <Compile Include="AppConfiguration.cs" />
+    <Compile Include="Data\Bookings.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="DalHelper.cs" />
+    <Compile Include="Data\CalendarObject.cs" />
+    <Compile Include="Data\CustomerCredits.cs" />
+    <Compile Include="Data\DailyPassLimit.cs" />
+    <Compile Include="Data\DataObject.cs" />
+    <Compile Include="Data\DefaultPriceObject.cs" />
+    <Compile Include="Data\DefaultPrices.cs" />
+    <Compile Include="Data\DiscountSubscriptions.cs" />
+    <Compile Include="Data\DiscountProducts.cs" />
+    <Compile Include="Data\Discounts.cs" />
+    <Compile Include="Data\EngagementObject.cs" />
+    <Compile Include="Data\GiftCardBookings.cs" />
+    <Compile Include="Data\GiftCards.cs" />
+    <Compile Include="Data\HotelPolicies.cs" />
+    <Compile Include="Data\NewAndReturnObject.cs" />
+    <Compile Include="Data\ProductImages.cs" />
+    <Compile Include="Data\Products.cs" />
+    <Compile Include="Data\SearchDataObject.cs" />
+    <Compile Include="Data\SearchDataResponse.cs" />
+    <Compile Include="Data\SearchParams.cs" />
+    <Compile Include="Data\SearchResult.cs" />
+    <Compile Include="Data\SubscriptionBookings.cs" />
+    <Compile Include="Data\SubscriptionImages.cs" />
+    <Compile Include="Data\Subscriptions.cs" />
+    <Compile Include="Data\Tickets.cs" />
+    <Compile Include="DeepCopy\DeepCopyByExpressionTrees.cs" />
+    <Compile Include="DeepCopy\DeepCopyByReflection.cs" />
+    <Compile Include="DeepCopy\DeepCopyBySerialization.cs" />
+    <Compile Include="ErrorMessage.cs" />
+    <Compile Include="Extensions\ControlExtensions.cs" />
+    <Compile Include="Extensions\CustomResolver.cs" />
+    <Compile Include="Extensions\DateTimeExtensions.cs" />
+    <Compile Include="Dayaxe.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dayaxe.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultValue.cs" />
+    <Compile Include="Extensions\DeepCopyObject.cs" />
+    <Compile Include="Extensions\ExtensionMethod.cs" />
+    <Compile Include="Extensions\EnumExtension.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Extensions\CustomSettings.cs" />
+    <Compile Include="GoogleAnalytics\GoogleAnalyticsDimensions.cs" />
+    <Compile Include="GoogleAnalytics\GoogleAnalyticsSearchParams.cs" />
+    <Compile Include="GoogleAnalytics\GoogleAnalyticsSearchResult.cs" />
+    <Compile Include="GoogleAnalytics\GoogleAnalyticsServiceAccount.cs" />
+    <Compile Include="GoogleAnalytics\GoogleAnalyticsViewId.cs" />
+    <Compile Include="Haversine.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="Data\Hotels.cs" />
+    <Compile Include="Extensions\LinqExtensions.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Parameters\AddBookingParams.cs" />
+    <Compile Include="Parameters\AddSubscriptionBookingParams.cs" />
+    <Compile Include="Parameters\CheckAvailableProductParams.cs" />
+    <Compile Include="Parameters\CountBookingsParams.cs" />
+    <Compile Include="Parameters\CountRedemptionParams.cs" />
+    <Compile Include="Parameters\GetDiscountValidByCodeParams.cs" />
+    <Compile Include="Parameters\GetIventoryByMonthParams.cs" />
+    <Compile Include="Parameters\MonthlySalesReportParams.cs" />
+    <Compile Include="Parameters\SearchAllBookingsParams.cs" />
+    <Compile Include="Parameters\SearchAllBookingsTodayParams.cs" />
+    <Compile Include="Parameters\SearchBookingsParams.cs" />
+    <Compile Include="Parameters\AddSubscriptionCycleParams.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\GiftCardBookingRepository.cs" />
+    <Compile Include="Repositories\SubscriptionBookingRepository.cs" />
+    <Compile Include="Repositories\SubscriptionRepository.cs" />
+    <Compile Include="Result\PurchaseTicketResult.cs" />
+    <Compile Include="Ultility\Algoritma.cs" />
+    <Compile Include="Ultility\ExcelExportHelper.cs" />
+    <Compile Include="ListResult.cs" />
+    <Compile Include="Data\Markets.cs" />
+    <Compile Include="Data\Photos.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\AmentyListRepository.cs" />
+    <Compile Include="Repositories\BookingRepository.cs" />
+    <Compile Include="Repositories\CustomerCreditRepository.cs" />
+    <Compile Include="Repositories\CustomerInfoRepository.cs" />
+    <Compile Include="Repositories\DiscountRepository.cs" />
+    <Compile Include="ExtendedBaseRepository.cs" />
+    <Compile Include="Repositories\HotelRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\GiftCardRepository.cs" />
+    <Compile Include="Repositories\LogRepository.cs" />
+    <Compile Include="Repositories\MarketHotelRepository.cs" />
+    <Compile Include="Repositories\MarketRepository.cs" />
+    <Compile Include="Repositories\PhotoRepository.cs" />
+    <Compile Include="Repositories\AmentyRepository.cs" />
+    <Compile Include="Repositories\ProductImageRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\ProductUpgradeRepository.cs" />
+    <Compile Include="Repositories\SurveyRepository.cs" />
+    <Compile Include="Repositories\CustomerInfoHotelRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Response.cs" />
+    <Compile Include="ResponseData.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Data\Surveys.cs" />
+    <Compile Include="Data\CustomerInfosHotels.cs" />
+    <Compile Include="Data\CustomerInfos.cs" />
+    <Compile Include="Ultility\IP.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dayaxe.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Dayaxe.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dayaxe.dbml.layout">
+      <DependentUpon>Dayaxe.dbml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

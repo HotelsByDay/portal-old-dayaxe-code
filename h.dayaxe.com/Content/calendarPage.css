@@ -1,0 +1,240 @@
+﻿#datepicker .table-condensed thead th:hover,
+#datepicker .table-condensed thead th,
+#datepickerHistorical .table-condensed thead th:hover,
+#datepickerHistorical .table-condensed thead th {
+    background: none;
+    cursor: auto;
+}
+#datepickerHistorical .table-condensed thead .datepicker-switch,
+#datepicker .table-condensed thead .datepicker-switch,
+.current-month {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4A4A4A;
+    text-transform: uppercase;
+    padding-left: 25px;
+    position: relative;
+    top: -15px;
+}
+/*#datepickerHistorical,*/
+#datepicker {
+    margin-top: 30px;
+}
+.col-calendar {
+    position: relative;
+    /*top: -35px;*/
+}
+#datepickerHistorical .datepicker table tr th,
+#datepicker .datepicker table tr th {
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+}
+/*#datepickerHistorical .table-condensed thead .next,
+#datepicker .table-condensed thead .next {
+    position: relative;
+    left: -523px;
+}*/
+#datepickerHistorical .datepicker table tr td.day,
+#datepicker .datepicker table tr td.day {
+    width: 115px;
+    height: 100px;
+    background-color: #ecf8fc;
+    color: #666666;
+    border: solid 1px #e8e6e9 !important;
+    vertical-align: top;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    background-clip: padding-box;
+}
+.datepicker-inline {
+    width: auto;
+}
+
+#datepicker .datepicker table tr td.day b span {
+    height: auto;
+    display: inline;
+    float: none;
+    line-height: 10px;
+}
+
+#datepicker .datepicker table tr td.current-date b span {
+    display: inline !important;
+}
+
+#datepickerHistorical .datepicker table tr td.day.highlight:hover,
+#datepickerHistorical .datepicker table tr td.day.highlight,
+#datepicker .datepicker table tr td.day.highlight:hover,
+#datepicker .datepicker table tr td.day.highlight {
+    background-color: #14c2f4;
+    color: #FFF;
+}
+#datepickerHistorical .datepicker table tr td.day.active:hover,
+#datepickerHistorical .datepicker table tr td.day.active,
+#datepicker .datepicker table tr td.day.active:hover,
+#datepicker .datepicker table tr td.day.active {
+    background-color: #f8e71c;
+    color: #000;
+}
+
+#datepickerHistorical .datepicker table tr td.current-date,
+#datepicker .datepicker table tr td.current-date {
+    border: solid 4px #000 !important;
+}
+
+#datepickerHistorical .datepicker table tr td.disabled.highlight,
+#datepicker .datepicker table tr td.disabled.highlight {
+    background-color: #14c2f4;
+    color: #FFF;
+}
+#datepickerHistorical .datepicker table tr td.disabled-date:hover,
+#datepicker .datepicker table tr td.disabled-date:hover,
+#datepickerHistorical .datepicker table tr td.disabled-date,
+#datepicker .datepicker table tr td.disabled-date {
+    background-color: #4a4a4a;
+    color: #b6b6b6;
+}
+.open-notchange-carlendar,
+.blocked-carlendar,
+.open-carlendar {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: solid 1px #e8e6e9;
+}
+.open-notchange-carlendar {
+    background-color: #14c2f4;
+}
+.blocked-carlendar {
+    background-color: #4a4a4a;
+}
+.open-carlendar {
+    background-color: #ecf8fc;
+}
+.instruction > div {
+    margin-top: 20px;
+    white-space: nowrap;
+}
+.instruction label {
+    line-height: 32px;
+    padding-left: 15px;
+}
+
+.calendar-right h4{
+    text-transform: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+#startDate,
+#endDate {
+    background-color: #f6f6f6;
+    height: 40px;
+}
+.calendar .btn-save,
+.calendar .btn-cancel {
+    margin-top: 30px;
+    height: 32px;
+    line-height: 20px;
+    padding: 6px 15px;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.calendar .btn-save {
+    color: #ffffff;
+}
+
+/*DatePicker*/
+
+.table-condensed .btn-prev,
+.table-condensed .btn-next {
+    font-size: 40px;
+    padding: 8px 12px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 15px;
+}
+
+.table-condensed .btn-next {
+    left: 59px;
+}
+
+.datepicker-days .table-condensed thead tr:nth-child(2) {
+    width: 100%;
+    float: left;
+    clear: both;
+    height: 25px;
+}
+#datepicker .table-condensed thead th:hover,
+#datepicker .table-condensed thead th {
+    height: 40px;
+}
+#datepickerHistorical .table-condensed thead .datepicker-switch,
+#datepicker .table-condensed thead .datepicker-switch {
+    white-space: nowrap;
+    left: 100px;
+}
+.select-range .btn {
+    /*width: 240px;*/
+}
+.select-range .caret {
+    float: right;
+    position: relative;
+    top: 8px;
+}
+.booking .table-condensed .btn-prev,
+.booking .table-condensed .btn-next {
+    top: 0px;
+}
+#datepickerHistorical .table-condensed thead .datepicker-switch {
+    top: 5px;
+}
+.product-list-calendar {
+    list-style: none;
+    display: inline;
+}
+.product-list-calendar li {
+    display: inline;
+}
+.product-list-calendar li a {
+    background-color: #e8e8e9;
+    box-shadow: none;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+}
+.product-list-calendar li a.active {
+    background-color: #13c1f4;
+    box-shadow: none;
+    color: white;
+}
+label.product-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9B9A;
+    text-transform: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+label.product-type {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.regular-price,
+.product-item {
+    height: 45px;
+    line-height: 45px;
+}
+label.title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: none;
+}

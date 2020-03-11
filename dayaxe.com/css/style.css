@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+
+header, section, footer, aside, nav, main, article, figure {
+ display: block;}
+ 
+ body{ margin:0px; padding:0px; background:url(../images/img.jpg) fixed no-repeat; background-size:100% 100%; height:auto;   }
+ 
+ h1,h2,h3,h4,h5,h6{ margin:0px; padding:0px;}
+ 
+ ul, li { margin:0px; padding:0px; }
+ 
+ a{ text-decoration:none;}
+ 
+.clear{ clear:both;}
+
+header{}
+
+.main-div{ }
+
+.main-part{
+	
+	width: 400px;
+	padding-top:220px;
+	height: auto;
+	margin: auto;
+	display:block;
+	text-align:center; }
+
+.main-part h1{ font-family:Verdana, Geneva, sans-serif; font-size:25px; color:#FFF; text-align:center; display:block; padding-bottom:10px;}
+.main-part h2{ font-family: 'Pacifico', cursive; font-size:40px; color:#FFF; text-align:center; padding-bottom:10px;}
+.main-part h3{ font-family:Verdana, Geneva, sans-serif; font-size:20px; color:#FFF; text-align:center; padding-bottom:10px;}
+
+home-part{
+	width: 400px;
+	padding-top:220px;
+	height: auto;
+	margin: auto;
+	display:block;
+	text-align:center; 
+	}
+.home-part h1{ font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#096; text-align:center; display:block; padding-bottom:10px;}	
+
+.tab-pare{ padding-top:50px;}
+
+.button-1{ background:#096; color:#000;}
+
+.hotel-text{ padding:20px; width:100%; padding-top:100px;}
+
+.tab-1{ width:100%; padding-bottom:15px;}
+
+.tab-img-1{ width:100%; background:url(/hotels/images/img1.jpg) no-repeat; background-size:100% 100%; height:auto; }
+
+.left-text{ float:left;}
+.left-text h4{  font-family:Verdana, Geneva, sans-serif; font-size:15px; color:#FFF;}
+.left-text h5{  font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#FFF;}
+
+.right-text{ float:right;}
+.right-text  h6{ font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#000; text-align:center; display:block;  }
+.button-info{ border:none; outline:none; color:#000; background:#096;}
+
+

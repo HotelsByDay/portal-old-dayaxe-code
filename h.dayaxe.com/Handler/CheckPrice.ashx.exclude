@@ -1,0 +1,81 @@
+﻿<%@ WebHandler Language="C#" Class="CheckPrice" %>
+
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Web;
+using DayaxeDal;
+using DayaxeDal.Custom;
+using DayaxeDal.Repositories;
+
+public class CheckPrice : IHttpHandler
+{
+    public void ProcessRequest(HttpContext context)
+    {
+        using (var productRepository = new ProductRepository())
+        {
+            var id = context.Request.Params["id"];
+            var d = context.Request.Params["d"];
+            int bookingId;
+            DateTime checkInDate;
+            string message;
+
+            if (d != null)
+            {
+                d = d.Replace("\"", "");
+            }
+            int.TryParse(id, out bookingId);
+            DateTime.TryParseExact(d, "MM/dd/yyyy", null, DateTimeStyles.None, out checkInDate);
+
+            var bookings = productRepository.BookingList.First(b => b.BookingId == bookingId);
+            var newPrice = productRepository.GetById(bookings.ProductId, checkInDate).ActualPriceWithDate;
+            var actualPrice = GetActualPrice(newPrice, bookings.BookingId, bookings.ProductId, bookings.Quantity, productRepository.DiscountBookingList, productRepository.DiscountList);
+            var diffPrice = actualPrice * bookings.Quantity - bookings.TotalPrice;
+            if (diffPrice > 0)
+            {
+                message = string.Format(
+                    "Pressing save will finalize the selection and will be charged a <b>{0}</b> difference in price using your credit card on file.",
+                    Helper.FormatPrice(diffPrice));
+            }
+            else if (diffPrice < 0)
+            {
+                message =
+                    string.Format(
+                        "Pressing save will finalize the selection and will be refunded a <b>{0}</b> difference in price using your credit card on file.",
+                        Helper.FormatPrice(Math.Abs(diffPrice)));
+            }
+            else
+            {
+                message = "Pressing save will finalize your selection.";
+            }
+
+            context.Response.ContentType = "application/json";
+            context.Response.Write(String.Format("{{\"success\":true,\"message\":\"{0}\"}}", message));
+        }
+    }
+
+    private double GetActualPrice(ActualPriceObject newPrice, int bookingId, int productId, int quantity, IEnumerable<DiscountBookings> discountBookingses, IEnumerable<Discounts> discountses)
+    {
+        var discounts = (from dp in discountBookingses
+                         join d in discountses on dp.DiscountId equals d.Id
+                         where dp.ProductId == productId && dp.BookingId == bookingId
+                         select d).FirstOrDefault();
+
+        double actualPrice = newPrice.Price;
+        if (discounts != null)
+        {
+            return Helper.CalculateDiscount(discounts, actualPrice, quantity);
+        }
+        return actualPrice;
+    }
+
+    public bool IsReusable
+    {
+        get
+        {
+            return false;
+        }
+    }
+
+}

@@ -1,0 +1,58 @@
+﻿@media (max-width: 992px) {
+    .text-right-m {
+        float: right;
+    }
+    hr.c {
+        margin: 20px 0;
+    }
+    #main header.credits {
+        height: 60px;
+        background-color: transparent;
+        z-index: 4;
+        max-width: 160px;
+        margin: 0 auto;
+    }
+    .credits {
+        margin-top: 82px;
+    }
+    .credits-page .navbar-brand {
+        display: none;
+    }
+    .title-total-c {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .credits .title-p {
+        text-align: center;
+    }
+    header.credits .title-c {
+        font-size: 16px;
+        white-space: nowrap;
+        padding-left: 0;
+        margin-top: 20px;
+        position: fixed;
+        width: 140px;
+        margin-left: 5px;
+    }
+    .credits .title-credits {
+        margin-bottom: 20px;
+    }
+    .personal-code {
+        margin-top: 15px;
+    }
+    .credits .btn-blue-all {
+        margin-top: 15px;
+    }
+    /*div.credits > .row {
+        margin: 0;
+    }*/
+    .credit-history .type {
+        white-space: normal;
+    }
+    .reviews-page .filter-button {
+        width: 80px;
+    }
+}
+@media (min-width: 992px) {
+    
+}

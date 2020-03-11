@@ -1,0 +1,325 @@
+@media (max-width: 992px) {
+    .product-detail .main-tab-content:first-child {
+        margin-top: 0;
+    }
+    .overlay-text span {
+        display: inline !important;
+        position: relative;
+        bottom: 2px;
+    }
+    #openDateTicketModal .button-submit .btn:hover,
+    #openDateTicketModal .button-submit .btn {
+        width: 100%;
+        font-size: 12px;
+    }
+    .product-page .book {
+        width: 50%;
+        float: right;
+        left: 50%;
+        height: 70px;
+        background-color: white;
+        border-top: solid 1px #ececed;
+    }
+    .product-page .coming-soon {
+        width: 100%;
+        left: 0;
+    }
+    .row-coming-soon {
+        
+    }
+    .row-coming-soon > div {
+        padding: 0;
+        text-align: center;
+    }
+
+    .book .book-now {
+        border: none;
+        position: relative;
+        top: 10px;
+        height: 70px;
+        width: 95%;
+    }
+
+    .price-mobile {
+        position: fixed;
+        bottom: 0;
+        width: 50%;
+        left: 0;
+        z-index: 3;
+        border-top: solid 1px #ececed;
+        height: 70px;
+        background-color: white;
+    }
+    .coming-soon-text,
+    .product-page .price-mobile .price {
+        font-weight: bold;
+        font-size: 22px;
+        font-family: "Helvetica Neue";
+    }
+    .coming-soon-text {
+        line-height: 44px;
+    }
+    .price-mobile .left {
+        width: 40%;
+        float: left;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .price-mobile .tickets {
+        width: 60%;
+        margin-top: 10px;
+        padding-left: 3px;
+    }
+    .price-mobile .tickets button:hover, 
+    .price-mobile .tickets button:focus, 
+    .price-mobile .tickets button {
+        width: 95%;
+        height: 30px;
+        line-height: 13px;
+        border: solid 2px #9b9b9b;
+        margin: 10px 0 0 0px !important;
+        color: #9b9b9b;
+        padding: 7px 2px;
+        background-color: white;
+        max-width: 93px;
+    }
+    .product-page #AnchorButton {
+        width: 50%;
+        float: right;
+    }
+    .product-page .price-mobile .upto-guest {
+        font-size: 10px;
+        font-family: "Helvetica Neue";
+        display: block !important;
+        font-style: italic;
+    }
+    .product-page .price-mobile .msrp.upto-guest {
+        color: #D0021B;
+        font-size: 10px;
+        text-decoration: none;
+        padding-bottom: 5px;
+        font-style: italic;
+    }
+    .product-page .price-mobile .msrp.upto-guest i {
+        text-decoration: line-through;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .has-promo .left {
+        padding-top: 5px;
+    }
+    /*#main-tabs-offer {
+        margin-left: -37px;
+    }*/
+    .tickets button .current-value {
+        padding: 0 3px;
+    }
+    .more-at-h {
+        text-align: center;
+    }
+    
+    .related-product-list .item .col-sm-7,
+    .related-product-list .item .col-xs-7 {
+        padding-right: 11px !important;
+    }
+    .related-product-list .item .col-sm-5,
+    .related-product-list .item .col-xs-5 {
+        padding-right: 25px;
+        padding-left: 0;
+    }
+    .product-detail .row.item > div {
+        padding-right: 15px;
+    }
+    .product-detail .row.item > div:nth-child(1),
+    .product-detail .row.item > div:nth-child(2) {
+        margin-bottom: 15px;
+    }
+    .check-in-date-mobile {
+        height: 53px;
+        border: solid 1px #F2F1F3;
+        background-color: #f7f7f7;
+    }
+    .check-in-date-mobile .image {
+        padding-left: 33px;
+        padding-top: 11px;
+    }
+    .product-page .product-redemtion .max-guest {
+        vertical-align: top;
+        padding-top: 12px;
+        display: block;
+        top: -40px;
+        padding-left: 70px;
+    }
+    .product-redemtion #checkindated {
+        max-width: 100%;
+        border: none;
+        height: 53px;    
+        position: relative;
+        top: -25px;
+    }
+    .product-redemtion #checkindated input {
+        height: 53px;
+        box-shadow: none;
+        padding: 0;
+        padding-top: 10px;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .product-page .product-redemtion .glyphicon {
+        font-size: 30px;
+    }
+
+    #main .row-similar-product > div {
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #main .owl-carousel .owl-controls .owl-buttons .owl-prev,
+    #main .owl-carousel .owl-controls .owl-buttons .owl-next,
+    #owl-product .owl-controls {
+        display: none;
+    }
+    #owl-product .product-info {
+        padding: 0;
+    }
+    #owl-product .product-info .type,
+    #main #owl-product .item img {
+        margin-bottom: 0px;
+    }
+    #owl-product .product-info .type {
+        font-size: 14px;
+    }
+    #owl-product .product-info .hotel-name {
+        font-size: 10px;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+    #owl-product .product-info .customer-name {
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+    #owl-product .product-info .rating {
+        height: 12px;
+        line-height: 10px;
+    }
+    #owl-product .product-info .rating img {
+        width: 8px;
+    }
+    #owl-product .product-info .price {
+        float: none;
+        font-size: 14px;
+        color: #4a4A4A;
+        font-weight: 700;
+        display: table-cell;
+        top: 0;
+        padding-right: 2px;
+    }
+    #owl-product .product-info .max-guest {
+        font-size: 10px;
+        float: none;
+        display: table-cell;
+        font-weight: 400;
+    }
+    .product-detail .owl-item .row.item > div {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .title-c-bo {
+        margin-bottom: 0;
+    }
+    #main #owl-product {
+        margin-bottom: 30px;
+    }
+    #main-tabs li img,
+    #main-tabs li:first-child img {
+        margin-top: 2px;
+    }
+    #main-tabs li img.spa-club {
+        margin-top: 0;
+    }
+    #main-tabs li a img.event, 
+    #main-tabs li a img.dining {
+        margin-top: 5px;
+    }
+    #main-tabs li img.sports-club {
+        margin-top: 1px;
+    }
+    .img-bell {
+        width: 30px !important;
+        float: right;
+        margin-right: 10px;
+    }
+    .bell-col-1 {
+        display: table-cell;
+        width: 55px;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    .bell-row {
+        margin-top: 15px;
+        height: 34px;
+    }
+    .bell-row > div {
+        padding: 0;
+    }
+    .bell-row > .bell-col-3 {
+        padding-left: 15px;
+    } 
+    .bell-row > .col-sm-7 {
+        padding-left: 15px;
+    }
+    #isWaitingListM {
+        position: relative;
+        /*right: -30px;*/
+        top: 10px;
+    }
+    #dailyLimitReachModal .modal-title,
+    #addToWaitingListModal .modal-title {
+        font-size: 24px;
+    }
+    #addToWaitingListModal .location .description {
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+    #addToWaitingListModal .location input[type=text] {
+        width: 100%;
+    }
+    #dailyLimitReachModal .button-submit > div {
+        padding: 0;
+    }
+    #addToWaitingListModal .button-submit > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #dailyLimitReachModal .btn,
+    #addToWaitingListModal .btn {
+        margin: 0;
+        border: none;
+        height: 40px;
+        line-height: 34px;
+        width: 100%;
+        font-size: 16px;
+        box-shadow: none;
+    }
+    #dailyLimitReachModal .location,
+    #addToWaitingListModal .location {
+        padding-bottom: 60px;
+    }
+    #main-tabs-content-offer {
+        margin: 15px 15px 15px 35px;
+    }
+    .product-redemtion > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .col-fine-print {
+        border: none;
+        margin: 0;
+    }
+    .header-fine-print {
+        margin-top: 0;
+    }
+    .col-fine-print ul {
+        margin-bottom: 0;
+    }
+}

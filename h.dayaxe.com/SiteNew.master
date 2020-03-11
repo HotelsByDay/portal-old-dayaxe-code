@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SiteNew.master.cs" Inherits="h.dayaxe.com.SiteNew" %>
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <webopt:bundlereference runat="server" path="~/Content/main" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="CssContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <img src='<%=ResolveUrl("Images/logo.png") %>' class="img-responsive" alt="Logo" />
+                </a>
+            </div>
+            <ul class="nav navbar-right top-nav">
+                <li>
+                    <h2 class="header">Admin</h2>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="#">HOTELS</a>
+                        <ul>
+                            <li runat="server" id="HotelListing">
+                                <a href="/HotelListings.aspx">Hotel Listings</a>
+                            </li>
+                            <li runat="server" id="UserHotel" Visible="False">
+                                <a href="/UserHotel.aspx">User</a>
+                            </li>
+                            <li runat="server" id="Markets" Visible="False">
+                                <a href="/Markets.aspx">Markets</a>
+                            </li>
+                            <li runat="server" id="ContentsPage" Visible="False">
+                                <a href="/ContentPage.aspx">Content Pages</a>
+                            </li>
+                            <li runat="server" id="PromoList" Visible="False">
+                                <a href="/PromoList.aspx">Promos</a>
+                            </li>
+                            <li runat="server" id="SearchBookingsList" Visible="False">
+                                <a href="/SearchBookings.aspx">Search</a>
+                            </li>
+                            <li runat="server" id="GiftCardList" Visible="False">
+                                <a href="/GiftCardList.aspx">Gift Card</a>
+                            </li>
+                            <li runat="server" id="SubscriptionList" Visible="False">
+                                <a href="/SubscriptionsList.aspx">Subscriptions</a>
+                            </li>
+                            <li runat="server" id="LogList" Visible="False">
+                                <a href="/LogList.aspx">Logs</a>
+                            </li>
+                            <li runat="server" id="EditPolicy" Visible="False">
+                                <a href="/EditPolicy.aspx">Policies</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">ACCOUNT</a>
+                        <ul>
+                            <li>
+                                <a href="#">Profile (Coming Soon)</a>
+                            </li>
+                            <li>
+                                <a href="#">Settings (Coming Soon)</a>
+                            </li>
+                            <li>
+                                <asp:LinkButton ID="LogoutLink" runat="server" OnClick="LogoutLink_Click">Logout</asp:LinkButton>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 content">
+                        <div class="right-content">
+                            <asp:ContentPlaceHolder ID="Content" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li>
+                                <a href="https://dayaxe.zendesk.com/hc/en-us/requests/new" target="_blank">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#">How it Works</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms &amp; Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright text-center">
+                            Copyright 2016 - Dayaxe.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </form>
+    <script>
+        window.updateUrl = '<%=UpdateUrl%>';
+    </script>
+    <%: Scripts.Render("~/bundles/jquery") %>
+    <%: Scripts.Render("~/bundles/jqueryui") %>
+    <script src="/Scripts/custom.js?v=1"></script>
+    <asp:ContentPlaceHolder ID="ScriptPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

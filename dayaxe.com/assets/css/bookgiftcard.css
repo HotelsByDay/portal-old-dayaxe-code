@@ -1,0 +1,141 @@
+﻿.gift-detail-title {
+    font-size: 20px;
+    text-transform: none;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.row-gift-detail {
+    margin: 0;
+}
+.row-gift-detail .input-group {
+    background-color: #f7f4f4;
+    border: 1px solid #C9C9C9;
+}
+.row-gift-detail .input-group input {
+    border: none !important;
+}
+.row-gift-detail .input-group input.errorborder {
+    border: 2px solid red !important;
+}
+.gift-detail-box {
+    border: 1px solid #ececed;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.gift-detail-box > .row {
+    margin-bottom: 10px;
+}
+
+.gift-detail-box label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4A4A4A;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+.gift-detail-box .input-group-addon:first-child {
+    width: auto;
+    padding: 11px;
+    background-color: white;
+    font-size: 18px;
+    color: #4A4A4A;
+    font-weight: 300;
+}
+.gift-detail-box input[type=text] {
+    font-size: 18px;
+    font-weight: 400;
+}
+#form1 .gift-detail-box input[type="text"],
+#form1 .gift-detail-box input[type="tel"],
+#form1 .gift-detail-box input[type="email"] {
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    padding-left: 5px;
+    box-shadow: none;
+    border: 1px solid #C9C9C9;
+    font-size: 18px;
+    color: #4A4A4A !important;
+}
+#form1 .gift-detail-box input.value {
+}
+.row-gift-detail .input-group.date {
+    padding: 0;
+    border: solid 1px #C9C9C9;
+}
+.gift-detail-box .input-group.date .input-group-addon {
+    border: none;
+    background-color: white;
+}
+.gift-detail-box .input-group .message {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    padding: 5px;
+    margin: 0;
+    font-size: 18px;
+    color: #4A4A4A !important;
+}
+#form1 .gift-detail-box input[type="text"]::placeholder,
+#form1 .gift-detail-box input[type="tel"]::placeholder,
+#form1 .gift-detail-box input[type="email"]::placeholder,
+#form-group .input-group .form-control::placeholder,
+.gift-detail-box .input-group .message::placeholder {
+    color: #969A9F !important;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.gift-detail-box .input-group .message::-webkit-input-placeholder,
+.gift-detail-box .input-group .message::-moz-placeholder,
+.gift-detail-box .input-group .message:-ms-input-placeholder,
+.gift-detail-box .input-group .message:-moz-placeholder {
+    color: #969A9F !important;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.bookguestinfo {
+    font-size: 20px;
+    font-weight: 700;
+}
+#form-group .input-group .form-control, 
+#form-group .input-group .form-control:placeholder-shown, 
+#form-group .input-group #choice {
+    font-size: 18px;
+}
+.book-wrap {
+    margin-bottom: 0;
+}
+.confirm-page .container-book {
+    margin-bottom: 110px;
+}
+@media (max-width: 992px) {
+    .gift-detail-box > .row > div {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .bookguestinfo,
+    .gift-detail-title {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .gift-detail-box label {
+        font-size: 14px;
+    }
+    .gift-detail-box .input-group .message,
+    #form1 .gift-detail-box input[type="text"], 
+    #form1 .gift-detail-box input[type="tel"], 
+    #form1 .gift-detail-box input[type="email"] {
+        font-size: 14px;
+    }
+    #form-group {
+        margin-bottom: 70px;
+    }
+}

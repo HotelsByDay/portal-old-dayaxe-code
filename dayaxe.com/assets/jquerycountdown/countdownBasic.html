@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Countdown</title>
+<link rel="stylesheet" href="jquery.countdown.css">
+<style type="text/css">
+#defaultCountdown { width: 240px; height: 45px; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="jquery.plugin.js"></script>
+<script src="jquery.countdown.js"></script>
+<script>
+$(function () {
+	$('#defaultCountdown').countdown({until: '+5m +0s', format: 'MS'});
+	$('#compactLayout').countdown({until: '+5m +0s', compact: true, layout: '<b>{mnn}{sep}{snn}</b> {desc}'});
+});
+</script>
+</head>
+<body>
+<div id="defaultCountdown"></div>
+<div id="compactLayout"></div>
+</body>
+</html>

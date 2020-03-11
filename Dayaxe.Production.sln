@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dayaxe.Dal", "DayaxeDal\Dayaxe.Dal.csproj", "{80FD8B71-8FFE-4859-BD16-F7963C4D7DEF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dayaxe.com", "dayaxe.com\", "{772310A6-EA1D-4C2F-A765-BD6DB2463342}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{632309ff-bef3-4ac3-8cae-939d34f41542}|Dayaxe.SendEmail.dll;{80fd8b71-8ffe-4859-bd16-f7963c4d7def}|DayaxeDal.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_19631"
+		Debug.AspNetCompiler.PhysicalPath = "dayaxe.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_19631\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_19631"
+		Release.AspNetCompiler.PhysicalPath = "dayaxe.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_19631\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "19631"
+		SlnRelativePath = "dayaxe.com\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "h.dayaxe.com", "h.dayaxe.com\", "{30A8C6A5-E9CD-4643-94A9-FE31FBEE4E99}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{632309FF-BEF3-4AC3-8CAE-939D34F41542}|Dayaxe.SendEmail.dll;{80fd8b71-8ffe-4859-bd16-f7963c4d7def}|DayaxeDal.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_43833"
+		Debug.AspNetCompiler.PhysicalPath = "h.dayaxe.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43833\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_43833"
+		Release.AspNetCompiler.PhysicalPath = "h.dayaxe.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43833\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "43833"
+		SlnRelativePath = "h.dayaxe.com\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dayaxe.SendEmail", "dayaxe.sendemail\Dayaxe.SendEmail.csproj", "{632309FF-BEF3-4AC3-8CAE-939D34F41542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNestedConfigSections", "CustomNestedConfigSection\CustomNestedConfigSections.csproj", "{B230D688-06A7-45C7-B959-1025218557C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApplication", "WebApplication", "{4BAAB8F3-0035-47C4-8735-E46F4B823462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dayaxe.Schedule", "Dayaxe.Schedule\Dayaxe.Schedule.csproj", "{E33D49CB-E69D-45C9-AB1D-79965AEE9441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{B36A4E92-205D-430C-940D-02C774571E44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{DDC21416-7C5B-424E-AA8E-B361EB1C5DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dayaxe.Console", "Dayaxe.Console\Dayaxe.Console.csproj", "{AD8B9DA1-3B17-4F90-A8AE-F92DBF32284B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildInfo", "BuildInfo", "{01326507-6F24-411A-A2B5-79ECEC54EFA1}"
+	ProjectSection(SolutionItems) = preProject
+		BuildInfo\AssemblyInfo.cs = BuildInfo\AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80FD8B71-8FFE-4859-BD16-F7963C4D7DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FD8B71-8FFE-4859-BD16-F7963C4D7DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FD8B71-8FFE-4859-BD16-F7963C4D7DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FD8B71-8FFE-4859-BD16-F7963C4D7DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772310A6-EA1D-4C2F-A765-BD6DB2463342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772310A6-EA1D-4C2F-A765-BD6DB2463342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772310A6-EA1D-4C2F-A765-BD6DB2463342}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A8C6A5-E9CD-4643-94A9-FE31FBEE4E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A8C6A5-E9CD-4643-94A9-FE31FBEE4E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A8C6A5-E9CD-4643-94A9-FE31FBEE4E99}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{632309FF-BEF3-4AC3-8CAE-939D34F41542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632309FF-BEF3-4AC3-8CAE-939D34F41542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632309FF-BEF3-4AC3-8CAE-939D34F41542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632309FF-BEF3-4AC3-8CAE-939D34F41542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B230D688-06A7-45C7-B959-1025218557C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B230D688-06A7-45C7-B959-1025218557C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B230D688-06A7-45C7-B959-1025218557C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B230D688-06A7-45C7-B959-1025218557C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33D49CB-E69D-45C9-AB1D-79965AEE9441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33D49CB-E69D-45C9-AB1D-79965AEE9441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33D49CB-E69D-45C9-AB1D-79965AEE9441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33D49CB-E69D-45C9-AB1D-79965AEE9441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8B9DA1-3B17-4F90-A8AE-F92DBF32284B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8B9DA1-3B17-4F90-A8AE-F92DBF32284B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8B9DA1-3B17-4F90-A8AE-F92DBF32284B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8B9DA1-3B17-4F90-A8AE-F92DBF32284B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{772310A6-EA1D-4C2F-A765-BD6DB2463342} = {4BAAB8F3-0035-47C4-8735-E46F4B823462}
+		{30A8C6A5-E9CD-4643-94A9-FE31FBEE4E99} = {4BAAB8F3-0035-47C4-8735-E46F4B823462}
+		{E33D49CB-E69D-45C9-AB1D-79965AEE9441} = {B36A4E92-205D-430C-940D-02C774571E44}
+		{AD8B9DA1-3B17-4F90-A8AE-F92DBF32284B} = {DDC21416-7C5B-424E-AA8E-B361EB1C5DEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ACEC0F6-EE75-45C6-873E-CF1A7C078962}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

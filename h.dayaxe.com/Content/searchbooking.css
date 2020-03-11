@@ -1,0 +1,214 @@
+﻿.blue {
+    color: #13c1f4;
+    font-weight: bold;
+}
+a.blue {
+    text-decoration: underline;
+}
+.blue:hover {
+    color: #13c1f4;
+}
+.blue .active {
+    display: inline-block;
+    padding: 2px 3px;
+    background-color: #13c1f4;
+    color: white;
+    border-radius: 3px;
+}
+.table-customer-bookings-details thead th:first-child {
+    padding-left: 0;
+}
+input.search-booking {
+	padding-left:20px;
+	background-repeat: no-repeat;
+	background-position-y: 8px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVDhP5ZI9C4MwEIb7//+BEDgICA6C4OQgBJy6dRIEB6EgCNkEJ4e3iT2oHzH9wHbpAwfyJvfkJDnhYH4kHDVKlSAigSAQoCiBKjVGXvaxFXZnxBQYkSlBICII+22K4jM63rbHSthCSdsskVX9Y6KxR5XJSSpVy6GbpbBKp6aw0BzM0ShCe1iKihMXC6EuQtMQwukzPFu3fFd4+C+/cimUNxy6WQkNnmdzL3NYPfDmLVuhZf2wZYz80qDkKX1St3CXAfVMqq4cz3hTaGEpmctxDPmB0M/fCYEbAwZYyVKYcroAAAAASUVORK5CYII=);
+    margin-top: 25px;
+}
+.input-group-btn .btn-search {
+    margin-top: 25px;
+}
+
+.table-booking {
+    margin-top: 0;
+}
+
+.table-booking tbody tr, 
+.table-booking thead tr {
+    height: 24px;
+    line-height: 24px;
+}
+
+.all,
+.all a,
+.all a:hover,
+.bookings,
+.bookings a,
+.bookings a:hover,
+.customers,
+.customer a,
+.customer a:hover{
+    float: left;
+    margin-right: 45px;
+    color: black;
+    text-decoration: none;
+}
+.all span,
+.bookings span,
+.customers span{
+    margin-left: 5px;
+    float: right;
+    display: inline-block;
+    padding: 2px 3px;
+    background-color: #dcd9dd;
+    border-radius: 3px;
+    color: black;
+}
+.all .active,
+.bookings .active,
+.customers .active {
+    background-color: #13c1f4;
+    color: white;
+}
+
+.bookings-details .form-control,
+.customer-infos .form-control {
+    height: 60px;
+    line-height: 60px;
+    background-color: #f6f6f6;
+    border: solid 1px #d2d2d2;
+}
+.bookings-details,
+.customer-infos {
+    border: solid 1px #979797;
+}
+.bookings-details > .col-md-12,
+.customer-infos > .col-md-12 {
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 30px;
+}
+.col-md-2-5 {
+    width: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.modal-body .row {
+    height: auto;
+    line-height: normal;
+}
+#refundModal .modal-title,
+#confirmModal .modal-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+#refundModal .modal-body span,
+#confirmModal .modal-body span {
+    font-size: 14px;
+    font-weight: 500;
+}
+#refundModal .modal-body .header,
+#confirmModal .modal-body .header {
+    font-size: 12px;
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+}
+#refundModal .modal-body,
+#confirmModal .modal-body {
+    padding: 0 45px 45px;
+}
+#refundModal .modal-body label,
+#confirmModal .modal-body label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4A4A4A;
+    white-space: nowrap;
+}
+#confirmModal .modal-body .col-md-4 > div {
+    height: 37px;
+    line-height: 37px;
+    width: 100%;
+    clear: both;
+}
+#confirmModal .modal-body .col-md-4:nth-child(3) {
+    border-left: solid 1px #dcd9dd;
+    margin-left: 10%;
+    width: 23.3%;
+}
+#confirmModal .modal-body .row-total {
+    border-top: solid 1px #dcd9dd;
+    height: 60px;
+    border-bottom: solid 1px #dcd9dd;
+    line-height: 45px;
+}
+#confirmModal .modal-body .row-total label {
+    font-weight: 700;
+}
+#confirmModal .modal-body .row-payment-method{
+    height: 70px;
+    line-height: 70px;
+}
+#confirmModal .modal-body .row-payment-method .form-control{
+    margin-top: 15px;
+}
+#confirmModal .modal-body .row-total .col-md-4:nth-child(3) {
+    border-left: none;
+}
+.row-button .col-md-6:nth-child(1) {
+    clear: both;
+}
+.error {
+    color: #d0011b;
+    font-size: 14px;
+    font-weight: 700;
+}
+.success {
+    color: #3ea365;
+    font-size: 14px;
+    font-weight: 700;
+}
+#refundModal .modal-body label span {
+    font-size: 14px;
+    color: #9b9a9b;
+    font-weight: 400;
+    display: block;
+}
+#refundModal .modal-body label .refund-r input {
+    margin-top: 15px;
+}
+#refundModal .modal-body .refund-l {
+    padding-left: 20px;
+}
+.bookings-details #refundModal .modal-body .form-control {
+    height: 40px;
+    line-height: 40px;
+}
+#refundModal .row-refund-amount {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#refundModal .modal-body > .row {
+    border: solid 1px #dcd9dd;
+    margin-bottom: 15px;
+}
+#refundModal .modal-body > .row-message,
+#refundModal .modal-body > .row-refund-method,
+#refundModal .modal-body > .row-button {
+    border: none;
+}
+#refundModal .label-p {
+    font-size: 20px;
+}
+.alternative-tt {
+    display: block;
+    position: relative;
+    width: 30px;
+    top: -40px;
+    z-index: 5;
+    left: 162px;
+}

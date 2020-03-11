@@ -1,0 +1,20 @@
+[
+  {
+    "outputFileName": "assets/js/bootstrap-datepicker.min.js",
+    "inputFiles": [
+      "assets/js/bootstrap-datepicker.js"
+    ]
+  },
+  {
+    "outputFileName": "assets/js/daterangepicker.min.js",
+    "inputFiles": [
+      "assets/js/daterangepicker.js"
+    ]
+  },
+  {
+    "outputFileName": "assets/css/daterangepicker.min.css",
+    "inputFiles": [
+      "assets/css/daterangepicker.css"
+    ]
+  }
+]

@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15, 78.125" name="Dayaxe">
+  <DataContextMoniker Name="/DayaxeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3deefb47-2e6c-47cc-a46b-d34b6837e28c" absoluteBounds="0.75, 0.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DayaxeDataContext/Logs" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eeb56007-b9b0-4c2a-b5b3-ae66d1a77fe2" absoluteBounds="0.76500000000000057, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1ae5f1db-1eb2-4b21-b26a-a7018084ac87" absoluteBounds="0.75, 38.125, 2, 1.3862939458340406">
+      <DataClassMoniker Name="/DayaxeDataContext/Policies" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0573eff9-fbec-4e3a-af31-44b1ccb879ab" absoluteBounds="0.76500000059604645, 38.58500000089407, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ed718ea-215f-4aec-83be-e37e1c3a37c2" absoluteBounds="3.5, 28.125, 2, 1.3862939458340406">
+      <DataClassMoniker Name="/DayaxeDataContext/MarketHotels" />
+      <nestedChildShapes>
+        <elementListCompartment Id="69b3ec6c-d7f0-4200-a1dc-f039fe4983ee" absoluteBounds="3.5150000005960464, 28.58500000089407, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5865098c-b322-4ca8-bf96-4e8007d58cba" absoluteBounds="6.25, 66, 2, 1.3862939458340406">
+      <DataClassMoniker Name="/DayaxeDataContext/ProductUpgrades" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c62ee5a9-721a-475d-959e-1557e6fa254d" absoluteBounds="6.2650000005960464, 66.46000000089407, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e0a39fda-ea52-4925-ae2e-1324c69cfcb4" absoluteBounds="12, 41.625, 2, 1.3862939458340406">
+      <DataClassMoniker Name="/DayaxeDataContext/DiscountBookings" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2481caac-9cd9-4696-970f-38e4ea5c4bf6" absoluteBounds="12.015000000596046, 42.08500000089407, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0b2c978-5adc-434b-9f4a-6a77cc42ef17" absoluteBounds="6.25, 70.25, 2, 2.1554996743798256">
+      <DataClassMoniker Name="/DayaxeDataContext/BlockedDatesCustomPrice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a0f7e90-7940-4de8-966f-68562e5d0b0c" absoluteBounds="6.2650000005960464, 70.71000000089407, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8aee6f06-e544-4670-ac77-15d2046637d1" absoluteBounds="6.25, 68.125, 2, 1.3862939458340406">
+      <DataClassMoniker Name="/DayaxeDataContext/ProductAddOns" />
+      <nestedChildShapes>
+        <elementListCompartment Id="220a6219-ab9e-4eef-975c-1327a01331d0" absoluteBounds="6.2650000005960464, 68.58500000089407, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="507597fc-cffe-4fb2-9e1f-02d531c794c4" absoluteBounds="3.5, 57, 2, 3.5016096998006105">
+      <DataClassMoniker Name="/DayaxeDataContext/CustomerCreditLogs" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6285889b-5513-4a68-9fbc-030ccca431ad" absoluteBounds="3.5150000005960464, 57.46000000089407, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bb0859f6-c96d-4a2c-a2f8-a5b32a9e53f9" absoluteBounds="12, 43.75, 2, 4.0785139966756105">
+      <DataClassMoniker Name="/DayaxeDataContext/BookingHistories" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ba4855c-1bec-4d1c-8d4c-fbf22217c5af" absoluteBounds="12.015000000596046, 44.21000000089407, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b5bfc80-962b-4a26-a3b1-51cc7e3278f4" absoluteBounds="3.5, 52.25, 2, 3.8862125650048256">
+      <DataClassMoniker Name="/DayaxeDataContext/CustomerInfoSearchCriteria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="23df2edf-da79-49c5-aa3a-2e6c7f22246b" absoluteBounds="3.5150000005960464, 52.71000000089407, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98af44a9-15cb-4adb-90ad-18af790d99fe" absoluteBounds="3.75, 0.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/DayaxeDataContext/RevShares" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fd5a4b2c-9f55-4e9b-bf46-6b273a16a884" absoluteBounds="3.7650000000000006, 1.2100000000000009, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63facef3-cf5a-43b0-abb8-ca47253ccb2a" absoluteBounds="9.25, 22.625, 2, 4.0785139966756105">
+      <DataClassMoniker Name="/DayaxeDataContext/SubscriptionCycles" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cee8db6a-5e81-447a-a932-0d8065af9f5b" absoluteBounds="9.2650000005960464, 23.08500000089407, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="81c479df-a20f-49e7-9dbb-6337af562898" absoluteBounds="9.25, 27.875, 2, 1.3862939458340406">
+      <DataClassMoniker Name="/DayaxeDataContext/SubscriptionBookingDiscounts" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de4b487a-415d-4680-974c-8578295adc37" absoluteBounds="9.2650000005960464, 28.33500000089407, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ac05ccf-df56-4d7c-9ad0-920caa994bcc" absoluteBounds="9.25, 36.5, 2, 1.3862939458340406">
+      <DataClassMoniker Name="/DayaxeDataContext/SubsciptionDiscountUseds" />
+      <nestedChildShapes>
+        <elementListCompartment Id="028a535b-0bbd-420a-8b7d-7538db915599" absoluteBounds="9.2650000005960464, 36.96000000089407, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4204fe44-e68c-43f6-9663-eb0b58f7efb1" absoluteBounds="6.75, 0.75, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/DayaxeDataContext/Taxes" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d456ed92-5230-46c4-b6e4-441887dd35be" absoluteBounds="6.7650000000000006, 1.2100000000000009, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c984283-eae2-4b7e-a5a2-a6d2f1206b16" absoluteBounds="12, 53, 2, 3.3093082681298256">
+      <DataClassMoniker Name="/DayaxeDataContext/BookingConfirmationHotels" />
+      <nestedChildShapes>
+        <elementListCompartment Id="216ef0a2-5b21-4600-85a0-555ba6a83c51" absoluteBounds="12.015000000596046, 53.46000000089407, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6b146cd1-cde0-4bb0-a18c-0d027289906e" absoluteBounds="6.75, 3.75, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/DayaxeDataContext/AccessRequests" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7915e82f-4fce-4d03-8c45-9a687ccb1c49" absoluteBounds="6.7650000000000006, 4.2100000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0f0d7607-4faa-4ab6-95f8-cd4687298803" absoluteBounds="6.75, 6.75, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/DayaxeDataContext/SiteMaps" />
+      <nestedChildShapes>
+        <elementListCompartment Id="23e9f0f6-1cf9-48e3-97ed-ff03ccddb158" absoluteBounds="6.7650000000000006, 7.2100000000000009, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c80e6e48-b0cf-4716-9ba5-97f52cff9b18" absoluteBounds="9.75, 0.75, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/DayaxeDataContext/HtmlContents" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6e7fa4d8-f71a-401c-9141-f03ac7e20870" absoluteBounds="9.765, 1.2100000000000009, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a14f48f1-6643-41d0-9291-99427467c9c6" absoluteBounds="9.75, 5.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/DayaxeDataContext/CustomerInfoLogs" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f927d6d-516b-4861-8ad4-40a383b530fd" absoluteBounds="9.765, 6.2100000000000009, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e4871f31-fced-41ff-abfa-200babbb8d8d" absoluteBounds="9.75, 9.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/DayaxeDataContext/Newsletters" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6677820-c9f7-486c-9d93-e13f8554bd3e" absoluteBounds="9.765, 10.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eb45e789-9908-4db8-b4a8-377f61cc745f" absoluteBounds="12, 22.625, 2, 4.0785139966756105">
+      <DataClassMoniker Name="/DayaxeDataContext/SubscriptionInvoices" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf3d68a2-4f5e-4fbc-957e-8cc1479c69bd" absoluteBounds="12.015000000596046, 23.08500000089407, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.25 : 24.6642569983378); (12 : 24.6642569983378)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/SubscriptionCycles/SubscriptionCycles_SubscriptionInvoices" />
+      <nodes>
+        <classShapeMoniker Id="63facef3-cf5a-43b0-abb8-ca47253ccb2a" />
+        <classShapeMoniker Id="eb45e789-9908-4db8-b4a8-377f61cc745f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1794ee0e-08e0-4585-84fd-7762fa1e0924" absoluteBounds="0.75, 10.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/DayaxeDataContext/Distances" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a2c1aff-afa9-4b56-ba34-9f44d21fe6ef" absoluteBounds="0.76500000000000057, 11.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="49e763c8-e29e-4147-98b5-519e9d50d437" absoluteBounds="6.25, 22.375, 2, 2.1554996743798256">
+      <DataClassMoniker Name="/DayaxeDataContext/AmentyLists" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc17fe58-e1e2-435a-b6d8-cc73dee07cb6" absoluteBounds="6.2650000005960464, 22.83500000089407, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1fd44a4c-915a-492e-aef7-497650bebe73" absoluteBounds="3.75, 10.75, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/DayaxeDataContext/Schedules" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f463d39-fc88-4000-9998-1dc11e308ae5" absoluteBounds="3.7650000000000006, 11.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c6959eae-3881-4cfd-8f45-69a3fc2dbe37" absoluteBounds="12, 48.625, 2, 3.6939111333340406">
+      <DataClassMoniker Name="/DayaxeDataContext/Invoices" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9880206-9a71-4fc4-8630-8acbd57c525c" absoluteBounds="12.015000000596046, 49.08500000089407, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ddc89f5-3932-4688-8a12-d846778ff11e" absoluteBounds="6.25, 73.25, 2, 1.5785953775048256">
+      <DataClassMoniker Name="/DayaxeDataContext/ProductWaittingLists" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca85d56a-acbd-4c64-a16e-f6419007b299" absoluteBounds="6.2650000005960464, 73.71000000089407, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af27df56-9ee4-4aba-826c-d9dce7e6ac01" absoluteBounds="12.75, 0.75, 2, 4.6554182942708309">
+      <DataClassMoniker Name="/DayaxeDataContext/BookingsTemps" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb771f25-c1b4-4907-9bd1-7ed8fab8a113" absoluteBounds="12.765, 1.2100000000000009, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8d1ad0d7-3ec2-44d3-9900-b5c8367ca947" absoluteBounds="9.25, 39, 2, 6.5784326177090406">
+      <DataClassMoniker Name="/DayaxeDataContext/Bookings" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77f29799-20f5-4127-802e-40a545b43566" absoluteBounds="9.2650000005960464, 39.46000000089407, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.25 : 42.318146972917); (12 : 42.318146972917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Bookings/Bookings_DiscountBookings" />
+      <nodes>
+        <classShapeMoniker Id="8d1ad0d7-3ec2-44d3-9900-b5c8367ca947" />
+        <classShapeMoniker Id="e0a39fda-ea52-4925-ae2e-1324c69cfcb4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 44.6642163088545); (12 : 44.6642163088545)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Bookings/Bookings_BookingHistories" />
+      <nodes>
+        <classShapeMoniker Id="8d1ad0d7-3ec2-44d3-9900-b5c8367ca947" />
+        <classShapeMoniker Id="bb0859f6-c96d-4a2c-a2f8-a5b32a9e53f9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.25 : 45.578432617709); (10.25 : 54.6546541340649); (12 : 54.6546541340649)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Bookings/Bookings_BookingConfirmationHotels" />
+      <nodes>
+        <classShapeMoniker Id="8d1ad0d7-3ec2-44d3-9900-b5c8367ca947" />
+        <classShapeMoniker Id="0c984283-eae2-4b7e-a5a2-a6d2f1206b16" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.7812525 : 45.578432617709); (10.7812525 : 50.471955566667); (12 : 50.471955566667)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Bookings/Bookings_Invoices" />
+      <nodes>
+        <classShapeMoniker Id="8d1ad0d7-3ec2-44d3-9900-b5c8367ca947" />
+        <classShapeMoniker Id="c6959eae-3881-4cfd-8f45-69a3fc2dbe37" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="98df6177-4c70-4266-a0a7-f2877275ea0c" absoluteBounds="3.5, 61.25, 2, 2.9247054029256176">
+      <DataClassMoniker Name="/DayaxeDataContext/CustomerCredits" />
+      <nestedChildShapes>
+        <elementListCompartment Id="321f32a0-fb33-4e4e-b693-cbcaee9d497c" absoluteBounds="3.5150000005960464, 61.71000000089407, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8281c328-8725-4667-923d-dc946ce82f3d" absoluteBounds="3.5, 47.5, 2, 3.5016096998006105">
+      <DataClassMoniker Name="/DayaxeDataContext/Discounts" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e13a9930-f42f-43a0-b7c2-e10013757299" absoluteBounds="3.5150000005960464, 47.96000000089407, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 47.5); (4.5 : 46.8187483716756); (5.75 : 46.8187483716756); (5.75 : 30.0881168619295); (8.875 : 30.0881168619295); (8.875 : 28.568146972917); (8.91666666666667 : 28.568146972917 : JumpStart); (9.08333333333333 : 28.568146972917 : JumpEnd); (9.25 : 28.568146972917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Discounts/Discounts_SubscriptionBookingDiscounts" />
+      <nodes>
+        <classShapeMoniker Id="8281c328-8725-4667-923d-dc946ce82f3d" />
+        <classShapeMoniker Id="81c479df-a20f-49e7-9dbb-6337af562898" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1d4490a9-965d-446b-9463-4b8846e41d06" absoluteBounds="3.5, 37.875, 2, 8.69374837167561">
+      <DataClassMoniker Name="/DayaxeDataContext/Products" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4adf3a80-454f-49e3-8d4f-e9063e96ad6a" absoluteBounds="3.5150000005960464, 38.33500000089407, 1.9700000000000002, 8.1337483723958321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 46.5118242947525); (6.1875 : 47.1993242947525); (6.1875 : 66.693146972917); (6.25 : 66.693146972917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_ProductUpgrades" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="5865098c-b322-4ca8-bf96-4e8007d58cba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.9999995 : 46.5687483716756); (4.9999995 : 47.0687483716756); (5.85666666666667 : 47.0687483716756 : JumpStart); (6.14025741025644 : 47.0687483716756 : JumpEnd); (6.25 : 47.0687483716756); (6.25 : 45.828432617709); (8.91666666666667 : 45.828432617709 : JumpStart); (9.08333333333333 : 45.828432617709 : JumpEnd); (10.1666666666667 : 45.828432617709 : JumpStart); (10.3333333333333 : 45.828432617709 : JumpEnd); (10.6979191666667 : 45.828432617709 : JumpStart); (10.8645858333333 : 45.828432617709 : JumpEnd); (11.625 : 45.828432617709); (11.625 : 41.9403214864585); (12 : 41.9403214864585)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_DiscountBookings" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="e0a39fda-ea52-4925-ae2e-1324c69cfcb4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 46.5579781409064); (5.87857443490112 : 46.9365525758075 : JumpStart); (5.99642556509888 : 47.0544037060053 : JumpEnd); (6.03125 : 47.0892281409064); (6.03125 : 71.3277498371899); (6.04166666666667 : 71.3277498371899 : JumpStart); (6.20833333333333 : 71.3277498371899 : JumpEnd); (6.25 : 71.3277498371899)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_BlockedDatesCustomPrice" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="a0b2c978-5adc-434b-9f4a-6a77cc42ef17" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 46.5502858332141); (6.0625 : 47.1127858332141); (6.0625 : 68.818146972917); (6.25 : 68.818146972917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_ProductAddOns" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="8aee6f06-e544-4670-ac77-15d2046637d1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 42.9767163088545); (5.66666666666667 : 42.9767163088545 : JumpStart); (5.83333333333333 : 42.9767163088545 : JumpEnd); (5.85416666666667 : 42.9767163088545 : JumpStart); (6.02083333333333 : 42.9767163088545 : JumpEnd); (9.25 : 42.9767163088545)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_Bookings" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="8d1ad0d7-3ec2-44d3-9900-b5c8367ca947" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" absoluteBounds="0.75, 40.375, 2, 6.7707340494791737">
+      <DataClassMoniker Name="/DayaxeDataContext/CustomerInfos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b92b6f5f-d3c1-4e67-ad11-619e02a84e31" absoluteBounds="0.76499999999999968, 40.835, 1.9700000000000002, 6.2107340494791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 47.1457340494792); (1.75 : 58.7508048499003); (3.5 : 58.7508048499003)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/CustomerInfos/CustomerInfos_CustomerCreditLogs" />
+      <nodes>
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+        <classShapeMoniker Id="507597fc-cffe-4fb2-9e1f-02d531c794c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 47.1457340494792); (2.2812525 : 54.1931062825024); (3.5 : 54.1931062825024)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/CustomerInfos/CustomerInfos_CustomerInfoSearchCriteria" />
+      <nodes>
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+        <classShapeMoniker Id="2b5bfc80-962b-4a26-a3b1-51cc7e3278f4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 40.375); (1.75 : 40.125); (2.19791866666667 : 40.125 : JumpStart); (2.36458533333333 : 40.125 : JumpEnd); (2.94589643589747 : 40.125 : JumpStart); (3.23958333333333 : 40.125 : JumpEnd); (3.25 : 40.125); (3.25 : 46.9437483716756); (4.41666666666667 : 46.9437483716756 : JumpStart); (4.58333333333333 : 46.9437483716756 : JumpEnd); (4.91666616666667 : 46.9437483716756 : JumpStart); (5.08333283333333 : 46.9437483716756 : JumpEnd); (5.625 : 46.9437483716756); (5.625 : 42.578432617709); (5.66666666666667 : 42.578432617709 : JumpStart); (5.83333333333333 : 42.578432617709 : JumpEnd); (5.85416666666667 : 42.578432617709 : JumpStart); (6.02083333333333 : 42.578432617709 : JumpEnd); (8.875 : 42.578432617709); (8.875 : 40.9571061544273); (8.91666666666667 : 40.9571061544273 : JumpStart); (9.08333333333333 : 40.9571061544273 : JumpEnd); (9.25 : 40.9571061544273)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/CustomerInfos/CustomerInfos_Bookings" />
+      <nodes>
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+        <classShapeMoniker Id="8d1ad0d7-3ec2-44d3-9900-b5c8367ca947" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.2187475 : 47.1457340494792); (1.2187475 : 62.7123527014628); (3.5 : 62.7123527014628)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/CustomerInfos/CustomerInfos_CustomerCredits" />
+      <nodes>
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+        <classShapeMoniker Id="98df6177-4c70-4266-a0a7-f2877275ea0c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="858b748d-57a2-4e9c-ac32-f5bfccbcdb77" absoluteBounds="0.75, 22, 2, 3.5016096998006105">
+      <DataClassMoniker Name="/DayaxeDataContext/Markets" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5bf5ef7-fcb7-4dce-92a7-0e290d277a3c" absoluteBounds="0.76500000059604645, 22.46000000089407, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 25.5000702382621); (3.125 : 25.8750702382621); (3.125 : 28.818146972917); (3.5 : 28.818146972917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Markets/Markets_MarketHotels" />
+      <nodes>
+        <classShapeMoniker Id="858b748d-57a2-4e9c-ac32-f5bfccbcdb77" />
+        <classShapeMoniker Id="7ed718ea-215f-4aec-83be-e37e1c3a37c2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.75 : 25.5016096998006); (0.375 : 25.8766096998006); (0.375 : 40); (0.75 : 40.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Markets/Markets_CustomerInfos" />
+      <nodes>
+        <classShapeMoniker Id="858b748d-57a2-4e9c-ac32-f5bfccbcdb77" />
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="cb6a4b5f-b6d9-4ae3-8d7f-8a124b4a8321" absoluteBounds="12.75, 6.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/DayaxeDataContext/DiscountBookingsTemps" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20a4a099-8a00-46cd-a290-e76622661aaa" absoluteBounds="12.765, 7.2100000000000009, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4de0b4f8-26bb-470a-b784-a59d30459fcb" absoluteBounds="12, 33.25, 2, 4.8477197270840406">
+      <DataClassMoniker Name="/DayaxeDataContext/Surveys" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81436e3d-76c0-4875-a684-025f90b52ab4" absoluteBounds="12.015000000596046, 33.71000000089407, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee6a3734-56f1-41a2-80d9-f96aee069cea" absoluteBounds="0.75, 6.125, 2, 3.6939111333340406">
+      <DataClassMoniker Name="/DayaxeDataContext/Subscriptions" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d277db66-0d4e-4399-81b7-ce2003161ba9" absoluteBounds="0.76500000059604645, 6.58500000089407, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 9.73891013333404); (2.986251 : 9.97516113333404); (8.875 : 9.97516113333404); (8.875 : 27.5); (8.94107443490112 : 27.5660744349011 : JumpStart); (9.05892556509888 : 27.6839255650989 : JumpEnd); (9.25 : 27.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Subscriptions/Subscriptions_SubscriptionBookingDiscounts" />
+      <nodes>
+        <classShapeMoniker Id="ee6a3734-56f1-41a2-80d9-f96aee069cea" />
+        <classShapeMoniker Id="81c479df-a20f-49e7-9dbb-6337af562898" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="669998d9-0e37-49ad-8e7f-e69d9fc54f09" absoluteBounds="6.25, 43.625, 2, 1.1939925123006105">
+      <DataClassMoniker Name="/DayaxeDataContext/DiscountProducts" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96c8c4d9-39cf-4077-a830-ce1ae8570b16" absoluteBounds="6.2650000005960464, 44.08500000089407, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 47.5646143846154); (5.96875 : 47.0958643846154); (5.96875 : 44.2219962561503); (6.25 : 44.2219962561503)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Discounts/Discounts_DiscountProducts" />
+      <nodes>
+        <classShapeMoniker Id="8281c328-8725-4667-923d-dc946ce82f3d" />
+        <classShapeMoniker Id="669998d9-0e37-49ad-8e7f-e69d9fc54f09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 43.8609981280752); (5.85416666666667 : 43.8609981280752 : JumpStart); (6.02083333333333 : 43.8609981280752 : JumpEnd); (6.25 : 43.8609981280752)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_DiscountProducts" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="669998d9-0e37-49ad-8e7f-e69d9fc54f09" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0b7e4ef4-5231-4535-9dfe-8415ae8cf3ac" absoluteBounds="6.25, 35.75, 2, 6.5784326177090406">
+      <DataClassMoniker Name="/DayaxeDataContext/DefaultPrices" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91e1c5f8-72f2-4f7e-a255-993e51b36465" absoluteBounds="6.2650000005960464, 36.21000000089407, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 40.1017163088545); (6.25 : 40.1017163088545)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_DefaultPrices" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="0b7e4ef4-5231-4535-9dfe-8415ae8cf3ac" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5d265eed-a4be-42a8-ab26-942309ef084a" absoluteBounds="6.25, 32.75, 2, 2.1554996743798256">
+      <DataClassMoniker Name="/DayaxeDataContext/ProductImages" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25319680-f9ce-4c53-9826-a70d65d7d4b9" absoluteBounds="6.2650000005960464, 33.21000000089407, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 37.875); (5.69107443490112 : 37.6839255650989 : JumpStart); (5.80892556509888 : 37.5660744349011 : JumpEnd); (5.875 : 37.5); (5.875 : 33.8277498371899); (6.25 : 33.8277498371899)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_ProductImages" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="5d265eed-a4be-42a8-ab26-942309ef084a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="759ae34c-1406-42db-934d-101ecdc26d1e" absoluteBounds="3.5, 21.375, 2, 4.0785139966756105">
+      <DataClassMoniker Name="/DayaxeDataContext/Amenties" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74c463b9-7ede-4041-8520-c565ad2b8b13" absoluteBounds="3.5150000005960464, 21.83500000089407, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="db98191f-5761-4be1-98bc-3c98ec4a0f0e" absoluteBounds="3.5, 18.5, 2, 2.1554996743798256">
+      <DataClassMoniker Name="/DayaxeDataContext/Photos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35271bba-0d7b-43d8-a941-9a2ae6fd9ec9" absoluteBounds="3.5150000005960464, 18.96000000089407, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="db0c099d-98e5-4d8c-82d1-622b8893e96e" absoluteBounds="3.5, 7, 2, 1.9631982427090406">
+      <DataClassMoniker Name="/DayaxeDataContext/SubscriptionImages" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26833f74-a6ea-4b0d-976c-8c47388f07a4" absoluteBounds="3.5150000005960464, 7.46000000089407, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.98159912135452); (3.5 : 7.98159912135452)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Subscriptions/Subscriptions_SubscriptionImages" />
+      <nodes>
+        <classShapeMoniker Id="ee6a3734-56f1-41a2-80d9-f96aee069cea" />
+        <classShapeMoniker Id="db0c099d-98e5-4d8c-82d1-622b8893e96e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="55a8a32c-b2d1-43b6-8770-c10994de0f0e" absoluteBounds="3.5, 34.25, 2, 1.1939925123006105">
+      <DataClassMoniker Name="/DayaxeDataContext/CustomerInfosHotels" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e790a16c-1041-4f64-a838-17d901b43cf8" absoluteBounds="3.5150000005960464, 34.71000000089407, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 40.4088451538462); (3.375 : 39.7838451538462); (3.375 : 34.8469962561503); (3.5 : 34.8469962561503)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/CustomerInfos/CustomerInfos_CustomerInfosHotels" />
+      <nodes>
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+        <classShapeMoniker Id="55a8a32c-b2d1-43b6-8770-c10994de0f0e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0a0cd4c1-bffa-4f00-8f19-09348d403fe6" absoluteBounds="6.5, 25.375, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/DayaxeDataContext/SubscriptionBookings" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c4a6500-c5ab-4045-83d5-ed6fc364dcef" absoluteBounds="6.5150000005960464, 25.83500000089407, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 26.0392569983626); (8.91666666666667 : 26.0392569983626 : JumpStart); (9.08333333333333 : 26.0392569983626 : JumpEnd); (9.25 : 26.0392569983626)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/SubscriptionBookings/SubscriptionBookings_SubscriptionCycles" />
+      <nodes>
+        <classShapeMoniker Id="0a0cd4c1-bffa-4f00-8f19-09348d403fe6" />
+        <classShapeMoniker Id="63facef3-cf5a-43b0-abb8-ca47253ccb2a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 28.9772204593755); (9.25 : 28.9772204593755)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/SubscriptionBookings/SubscriptionBookings_SubscriptionBookingDiscounts" />
+      <nodes>
+        <classShapeMoniker Id="0a0cd4c1-bffa-4f00-8f19-09348d403fe6" />
+        <classShapeMoniker Id="81c479df-a20f-49e7-9dbb-6337af562898" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 40.4042297692308); (3.1875 : 39.9667297692308); (3.1875 : 26.7892569983378); (6.5 : 26.7892569983378)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/CustomerInfos/CustomerInfos_SubscriptionBookings" />
+      <nodes>
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+        <classShapeMoniker Id="0a0cd4c1-bffa-4f00-8f19-09348d403fe6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.70076923076923 : 9.81891113333404); (3.28125 : 10.3993919025648); (3.28125 : 26.1213829975067); (6.5 : 26.1213829975067)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Subscriptions/Subscriptions_SubscriptionBookings" />
+      <nodes>
+        <classShapeMoniker Id="ee6a3734-56f1-41a2-80d9-f96aee069cea" />
+        <classShapeMoniker Id="0a0cd4c1-bffa-4f00-8f19-09348d403fe6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="dcefca64-1a4b-4c94-8555-ce870f3b8faf" absoluteBounds="3.5, 30.875, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/DayaxeDataContext/HotelPolicies" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e204abe7-f82e-418e-a9fa-8b16105e58a6" absoluteBounds="3.5150000000000006, 31.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 38.125); (2.94107443490112 : 37.9339255650989 : JumpStart); (3.05892556509888 : 37.8160744349011 : JumpEnd); (3.125 : 37.75); (3.125 : 31.7604484049479); (3.5 : 31.7604484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Policies/Policies_HotelPolicies" />
+      <nodes>
+        <classShapeMoniker Id="1ae5f1db-1eb2-4b21-b26a-a7018084ac87" />
+        <classShapeMoniker Id="dcefca64-1a4b-4c94-8555-ce870f3b8faf" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="80078d0f-c859-4d76-99c8-e4f6449efdf9" absoluteBounds="6.5, 46.5, 2, 4.6554182935506105">
+      <DataClassMoniker Name="/DayaxeDataContext/GiftCardBookings" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a14eddc-2d09-428b-ae70-3b7c81a3aaec" absoluteBounds="6.5150000005960464, 46.96000000089407, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 46.6624983716756); (5.45041666666666 : 46.6624983716756 : JumpStart); (5.83333333333333 : 46.6624983716756 : JumpEnd); (5.85416666666667 : 46.6624983716756 : JumpStart); (6.05208333333333 : 46.6624983716756 : JumpEnd); (6.5 : 46.6624983716756)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/CustomerInfos/CustomerInfos_GiftCardBookings" />
+      <nodes>
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+        <classShapeMoniker Id="80078d0f-c859-4d76-99c8-e4f6449efdf9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="bd3e965e-97c1-4d3c-99f6-b6e97888ebd5" absoluteBounds="3.75, 75.875, 2, 1.9631982427090406">
+      <DataClassMoniker Name="/DayaxeDataContext/GiftCards" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a11a845-db3c-41cf-a389-4ff769dd9929" absoluteBounds="3.7650000005960464, 76.33500000089407, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.6875 : 75.875); (5.6875 : 47.2531241858378); (5.69277225005967 : 47.2531241858378 : JumpStart); (5.89482353211094 : 47.2531241858378 : JumpEnd); (5.94791666666667 : 47.2531241858378 : JumpStart); (6.14583333333333 : 47.2531241858378 : JumpEnd); (6.5 : 47.2531241858378)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/GiftCards/GiftCards_GiftCardBookings" />
+      <nodes>
+        <classShapeMoniker Id="bd3e965e-97c1-4d3c-99f6-b6e97888ebd5" />
+        <classShapeMoniker Id="80078d0f-c859-4d76-99c8-e4f6449efdf9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2af4f165-9af3-4def-bcda-cad7f9e303db" absoluteBounds="9.25, 31, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/DayaxeDataContext/DiscountSubscriptions" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df570d85-944a-485e-8bf0-ba1dc533e813" absoluteBounds="9.2650000005960464, 31.46000000089407, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 47.5292297692308); (5.9375 : 47.0917297692308); (5.9375 : 31.5969962565104); (9.25 : 31.5969962565104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Discounts/Discounts_DiscountSubscriptions" />
+      <nodes>
+        <classShapeMoniker Id="8281c328-8725-4667-923d-dc946ce82f3d" />
+        <classShapeMoniker Id="2af4f165-9af3-4def-bcda-cad7f9e303db" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.81891113333404); (3.125 : 10.193911133334); (9 : 10.193911133334); (9 : 30.7500000003601); (9.24999999963989 : 31)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Subscriptions/Subscriptions_DiscountSubscriptions" />
+      <nodes>
+        <classShapeMoniker Id="ee6a3734-56f1-41a2-80d9-f96aee069cea" />
+        <classShapeMoniker Id="2af4f165-9af3-4def-bcda-cad7f9e303db" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 49.314364042208); (5.60416666666667 : 49.314364042208 : JumpStart); (5.77083333333333 : 49.314364042208 : JumpEnd); (5.94791666666667 : 49.314364042208 : JumpStart); (6.27083333333333 : 49.314364042208 : JumpEnd); (6.375 : 49.314364042208); (6.375 : 46.078432617709); (9 : 46.078432617709); (9 : 38.261293945834); (10.25 : 38.261293945834); (10.25 : 37.886293945834)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Discounts/Discounts_SubsciptionDiscountUseds" />
+      <nodes>
+        <classShapeMoniker Id="8281c328-8725-4667-923d-dc946ce82f3d" />
+        <classShapeMoniker Id="4ac05ccf-df56-4d7c-9ad0-920caa994bcc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.281252 : 40.375); (2.281252 : 39.761293945834); (3 : 39.761293945834); (3 : 37.193146972917); (3.10416666666667 : 37.193146972917 : JumpStart); (3.27083333333333 : 37.193146972917 : JumpEnd); (5.85416666666667 : 37.193146972917 : JumpStart); (6.02083333333333 : 37.193146972917 : JumpEnd); (6.125 : 37.193146972917); (6.125 : 35.5); (8.875 : 35.5); (8.875 : 37.193146972917); (9.25 : 37.193146972917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/CustomerInfos/CustomerInfos_SubsciptionDiscountUseds" />
+      <nodes>
+        <classShapeMoniker Id="4d8d2480-5f84-48c4-afc0-79cb14c7102e" />
+        <classShapeMoniker Id="4ac05ccf-df56-4d7c-9ad0-920caa994bcc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 29.7750389388526); (8.9375 : 30.2125389388526); (8.9375 : 36.8153214864585); (9.25 : 36.8153214864585)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/SubscriptionBookings/SubscriptionBookings_SubsciptionDiscountUseds" />
+      <nodes>
+        <classShapeMoniker Id="0a0cd4c1-bffa-4f00-8f19-09348d403fe6" />
+        <classShapeMoniker Id="4ac05ccf-df56-4d7c-9ad0-920caa994bcc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 23.4527498371899); (6.25 : 23.4527498371899)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Amenties/Amenties_AmentyLists" />
+      <nodes>
+        <classShapeMoniker Id="759ae34c-1406-42db-934d-101ecdc26d1e" />
+        <classShapeMoniker Id="49e763c8-e29e-4147-98b5-519e9d50d437" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.44 : 46.5687483716756); (6.125 : 47.2537483716756); (6.125 : 74.0392976887524); (6.25 : 74.0392976887524)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Products/Products_ProductWaittingLists" />
+      <nodes>
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+        <classShapeMoniker Id="7ddc89f5-3932-4688-8a12-d846778ff11e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 39); (11.625 : 38.625); (11.625 : 35.673859863542); (12 : 35.673859863542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Bookings/Bookings_Surveys" />
+      <nodes>
+        <classShapeMoniker Id="8d1ad0d7-3ec2-44d3-9900-b5c8367ca947" />
+        <classShapeMoniker Id="4de0b4f8-26bb-470a-b784-a59d30459fcb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f3655ff7-e591-4864-b94e-31adf43236f6" absoluteBounds="0.75, 27.125, 2, 9.27065266927083">
+      <DataClassMoniker Name="/DayaxeDataContext/Hotels" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f39f783-e040-4a33-97fd-c7ec70d775f1" absoluteBounds="0.76499999999999968, 27.585, 1.9700000000000002, 8.7106526692708321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 28.4090734864585); (3.10416666666667 : 28.4090734864585 : JumpStart); (3.27083333333333 : 28.4090734864585 : JumpEnd); (3.5 : 28.4090734864585)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Hotels/Hotels_MarketHotels" />
+      <nodes>
+        <classShapeMoniker Id="f3655ff7-e591-4864-b94e-31adf43236f6" />
+        <classShapeMoniker Id="7ed718ea-215f-4aec-83be-e37e1c3a37c2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 36.3633439769631); (3.15625 : 36.7695939769631); (3.15625 : 43.3468736858378); (3.5 : 43.3468736858378)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Hotels/Hotels_Products" />
+      <nodes>
+        <classShapeMoniker Id="f3655ff7-e591-4864-b94e-31adf43236f6" />
+        <classShapeMoniker Id="1d4490a9-965d-446b-9463-4b8846e41d06" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 27.1588451538462); (3.06607443490112 : 26.8427707189451 : JumpStart); (3.18392556509888 : 26.7249195887473 : JumpEnd); (3.40625 : 26.5025951538462); (3.40625 : 23.4142569983378); (3.5 : 23.4142569983378)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Hotels/Hotels_Amenties" />
+      <nodes>
+        <classShapeMoniker Id="f3655ff7-e591-4864-b94e-31adf43236f6" />
+        <classShapeMoniker Id="759ae34c-1406-42db-934d-101ecdc26d1e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.74846153846154 : 27.125); (3.06607443490112 : 26.8073871035604 : JumpStart); (3.18392556509888 : 26.6895359733626 : JumpEnd); (3.34375 : 26.5297115384615); (3.34375 : 19.5777498371899); (3.5 : 19.5777498371899)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Hotels/Hotels_Photos" />
+      <nodes>
+        <classShapeMoniker Id="f3655ff7-e591-4864-b94e-31adf43236f6" />
+        <classShapeMoniker Id="db98191f-5761-4be1-98bc-3c98ec4a0f0e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 34.4859981280752); (3.10416666666667 : 34.4859981280752 : JumpStart); (3.27083333333333 : 34.4859981280752 : JumpEnd); (3.5 : 34.4859981280752)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Hotels/Hotels_CustomerInfosHotels" />
+      <nodes>
+        <classShapeMoniker Id="f3655ff7-e591-4864-b94e-31adf43236f6" />
+        <classShapeMoniker Id="55a8a32c-b2d1-43b6-8770-c10994de0f0e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 31.255224202474); (3.10416666666667 : 31.255224202474 : JumpStart); (3.27083333333333 : 31.255224202474 : JumpEnd); (3.5 : 31.255224202474)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayaxeDataContext/Hotels/Hotels_HotelPolicies" />
+      <nodes>
+        <classShapeMoniker Id="f3655ff7-e591-4864-b94e-31adf43236f6" />
+        <classShapeMoniker Id="dcefca64-1a4b-4c94-8555-ce870f3b8faf" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

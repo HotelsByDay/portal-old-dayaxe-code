@@ -1,0 +1,45 @@
+﻿@media (max-width: 992px) {
+    .content {
+        margin-top: 0;
+    }
+    .page-client #page-wrapper #main .wrapper-body {
+        padding: 0 25px 50px;
+    }
+    .page-client #page-wrapper #main header {
+        height: 62px;
+        z-index: 4;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+    footer,
+    #NavHeader .navbar-brand {
+        display: none;
+    }
+    #NavHeader {
+        display: block !important;
+    }
+    .page-client #page-wrapper #main header h3.title {
+        font-size: 16px;
+        white-space: nowrap;
+        padding-left: 0;
+        margin-top: 20px;
+        position: fixed;
+        width: 230px;
+        text-align: center;
+    }
+    .page-client .go-back {
+        position: fixed;
+    }
+    header .location {
+        margin-top: 40px;
+        white-space: nowrap;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
+    .page-client h4.title {
+        text-align: center;
+        margin: 30px auto;
+    }
+}

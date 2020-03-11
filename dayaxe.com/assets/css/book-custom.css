@@ -1,0 +1,787 @@
+h1, h2, h3, h4, h5, h6, p, body, #main {
+    font-family: 'Arial', sans-serif !important;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.span-10px-bold-4a {
+    font-size: 10px;
+    font-weight: 700;
+    color: #4A4A4A;
+}
+.line-height-40 {
+    line-height: 40px;
+}
+.span-18px-500-4a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+.span-28px-500-red {
+    font-size: 28px;
+    font-weight: 500;
+    color: #d0021b;
+}
+#main .navbar {
+    height: auto;
+    max-height: none;
+    border-bottom: none;
+    margin: 0;
+}
+#main .owl-carousel { padding: 0; margin: 0; display: initial; }
+#main .owl-carousel .item { position: relative;height: 205px;}
+#main .owl-carousel .item > img { display: block; width: 100%; height: auto; position: relative; bottom:0;}
+
+#main .owl-carousel .item .overlay-bg, .owl-carousel .item .overlay-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#main .owl-carousel .item .overlay-bg {
+    height: 50px;
+    background: #000;
+    opacity: 0.6;
+}
+#main .owl-carousel .item .overlay-bg-book {
+    opacity: 0.6;
+    height: 70px;
+}
+#main .owl-carousel .item .overlay-text {
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 15px;
+    height: 60px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+#main .owl-carousel .owl-controls .owl-buttons div {
+    margin: 0 5px !important;
+    padding: 10px;
+    position: absolute;
+    top: 34%;
+}
+#main .divider {
+    width: 80%;
+    margin: 45px auto;
+}
+#main .divider-60 {
+    width: 70%;
+    margin: 0px auto;
+}
+.guest-info {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px auto;
+}
+#form-group {
+    color: #4A4A4A;
+    border: 1px solid #ececed;
+    margin-bottom: 15px;
+}
+#form-group .input-group {
+    border: none;
+}
+#form-group .date .input-group { 
+    border-bottom: none;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#form-group .date .date-label {
+    padding-top: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+#form-group .date .date-label-3 {
+    padding-top: 27px;
+}
+#form-group .date .date-label-2 {
+    padding-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 9px;
+    color: #9b9b9b;
+}
+#form-group .input-group .input-group-addon {
+    font-size: 14px;
+    border: none;
+    background-color: #f7f4f4;
+}
+#form-group .input-group .form-control, #form-group .input-group .form-control:placeholder-shown, #form-group .input-group #choice {
+    background: #f7f4f4;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    border: none;
+    border-radius: 0;
+    z-index: 0;
+}
+#form-group .input-group .form-control:placeholder-shown { color: #4A4A4A !important; }
+#form-group .input-group #choice { text-align: right; cursor: pointer; }
+#form-group .payment-group > a { font-size: 14px; }
+#form-group .payment-group > a > i.fa {
+    display: inline-block;
+    font-size: 26px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+#form-group .pricebox {
+    float: right;
+    line-height: 37px;
+    color: #4A4A4A;
+}
+#form-group .pricebox span {
+    display: inline-block;
+    vertical-align: middle;
+}
+#form-group .pricebox .upto-text {
+    font-weight: bold;
+    margin-right: 4px;
+}
+#form-group .pricebox .total-price {
+    font-size: 36px;
+    font-weight: bold;
+}
+.purchase {
+    z-index: 3;
+    position: relative;
+    width: 100%;
+    float: none;
+}
+.purchase .note {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #4A4A4A;
+    line-height: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    font-style: italic;
+}
+.purchase .note:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #ECECED;
+    background: #F7F4F4;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.purchase .AnchorButton {
+    display: block;
+    background: #13c1f4;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: none;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 26px !important;
+    border-radius: 0;
+    text-overflow:inherit;
+    margin: 0 auto;
+    width: 220px;
+}
+.purchase .AnchorButton:hover, 
+.purchase .AnchorButton:focus { 
+    text-decoration: none;
+    background-color: #13c1f4; 
+}
+.wrapper.style5 {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.container.book {
+    background-color: #fff;
+    border-top: none;
+    margin-bottom: 55px;
+}
+.book-wrap {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.book-page .book .col-left {
+    padding-left: 50px;
+}
+.book-page .book .col-right {
+    padding-right: 30px;
+    padding-left: 15px;
+}
+.wrap-purchase .greenborder .pricebox {
+    text-align: right;
+}
+.greenborder .row {
+    height: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.greenborder .row > div {
+    height: 37px;
+}
+.greenborder .border {
+    border-top: solid 1px #ececed;
+    line-height: 50px;
+    padding-top: 3px;
+}
+.input-card-type {
+    background-color: #F9F9F9;
+    padding: 5px 10px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 40px;
+    line-height: 26px;
+}
+span.card-type {
+    background-color: #4582ca;
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    display: inline-block;
+    padding: 2px 5px;
+    margin-right: 5px;
+    height: 20px;
+    line-height: 16px;
+}
+.proformwrap .btn-blue-new {
+    height: 32px;
+    line-height: 30px !important;
+    text-transform: none;
+    font-size: 16px;
+    padding: 0 5px;
+    margin-top: 27px;
+    float: right;
+}
+.add-promo:hover,
+.add-promo {
+    color: #13C1F4;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.discount-text {
+    margin: 0px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    text-transform: uppercase;
+}
+.greenborder .btn-apply {
+    width: 100%;
+    margin-top: 0;
+    height: 28px;
+    line-height: 20px !important;
+    font-size: 16px;
+    padding: 0;
+}
+/*.row-error .error-message {
+    margin-left: 15px;
+}*/
+.row-error > div {
+    height: 24px !important;
+}
+.up-to-guest {
+    font-size: 10px;
+}
+.up-to-guest span {
+    margin-right: 15px;
+}
+#freePassModal .modal-title,
+#soldOutModal .modal-title,
+#newBookingModal .modal-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #4A4A4A;
+    text-transform: none;
+}
+
+#freePassModal .btn {
+    margin: 0 auto;
+    line-height: 30px;
+    background: #13c1f4;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    width: 175px;
+    margin-bottom: 40px;
+    height: 42px;
+}
+#soldOutModal .btn,
+#newBookingModal .btn{
+    margin:0 auto 0;
+    display: block;
+    line-height: 30px;
+    background: #13c1f4;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    width: 175px;
+    margin-bottom: 100px;
+    height: 42px;
+    float: left;
+    margin-left: 30px;
+}
+#soldOutModal .btn {
+    float: none;
+    margin: 0 auto;
+}
+
+#soldOutModal .button-submit {
+    position: relative;
+}
+#soldOutModal .location,
+#newBookingModal .location {
+    padding: 70px 20px 90px;
+    color: #A1A1A1;
+    font-size: 20px;
+}
+
+#newBookingModal .modal-body {
+    padding: 0;
+}
+
+#freePassModal .location {
+    font-size: 20px;
+    color: #4A4A4A;
+    font-weight: 500;
+    margin: 40px;
+}
+
+#freePassModal .location .checkbox {
+    width: 320px;
+    margin: 0 auto;
+    text-align: left;
+}
+#freePassModal .location .checkbox:nth-child(1) {
+    margin-top: 40px;
+}
+#freePassModal .location .checkbox:nth-child(4) {
+    margin-bottom: 40px;
+}
+
+#freePassModal .location .checkbox label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4A4A4A;
+}
+
+#newBookingModal .btn-cancel {
+    background-color: white;
+    border: solid 3px #9b9b9b;
+    color: #9b9b9b;
+    line-height: 24px;
+    float: right;
+    margin-right: 30px;
+}
+
+#newBookingModal .modal-content {
+    background-color: #FBFBFB;
+}
+.button-submit .col-left {
+    padding-right: 0;
+}
+
+.button-submit .col-right {
+    padding-left: 0px;
+}
+#form1 #newBookingModal .col-right,
+#form1 #newBookingModal .col-left {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.tickets button:hover,
+.tickets button:focus,
+.tickets button{
+    width: 138px;
+    height: 30px;
+    line-height: 13px;
+    border: solid 2px #9b9b9b;
+    margin: 10px 0 0 0px !important;
+    color: #9b9b9b;
+    padding: 8px 10px;
+    background-color: white;
+}
+.tickets button .current-value {
+    float: left;
+}
+.tickets button .glyphicon {
+    float: right;
+}
+.tickets .ticket-capacity {
+    max-height: 250px;
+    overflow-y: auto;
+    margin-top: 0;
+}
+.tickets .ticket-capacity a {
+    cursor: pointer;
+    height: 50px;
+    line-height: 46px;
+    border: solid 1px #ECF8FC;
+}
+.select-date-later,
+.select-date-now {
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+    color: #b3b3b3;
+    border: solid 2px #9b9b9b;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 8px;
+    text-align: center;
+}
+.select-date-later.selected,
+.select-date-now.selected {
+    background-color: #faff00;
+    color: #000000;
+    border-color: #faff00;
+    font-weight: bold;
+    display: inline-block;
+}
+h5.benefit {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4A4A4A;
+    text-transform: none;
+    margin: 35px auto 5px;
+    text-align: center;
+}
+/*******************Exclusive Modal*******************/
+#upgradeModal .modal-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #4A4A4A;
+    text-transform: none;
+}
+#upgradeModal .modal-body {
+    padding: 15px 17px 22px 17px;
+}
+#upgradeModal .modal-header {
+    margin: 15px;
+}
+#upgradeModal .modal-sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #13C1F4;
+    text-transform: none;
+}
+.extra-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+.upgrade-subscription-list {
+    margin-top: 40px;
+}
+hr.sub-upgrade {
+    border-top: solid 1px #dadada;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.Up-to-30-passes-per {
+    width: 225px;
+    height: 37px;
+    font-family: HelveticaNeue;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #08cb9f;
+}
+.price-label-upgrade {
+    font-size: 10px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+.sub-term {
+    font-size: 10px;
+    font-weight: 400;
+    color: #5B5B5B;
+    max-width: 460px;
+    margin: 20px auto 17px;
+}
+.sub-term a {
+    color: #13c1f4;
+    text-decoration: underline;
+}
+#upgradeModal .view-booking:hover,
+#upgradeModal .view-booking:focus,
+#upgradeModal .view-booking {
+    font-size: 10px;
+    font-weight: 700;
+    color: #9B9B9B;
+    background: none;
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: underline;
+}
+#upgradeModal .btn-accept:hover,
+#upgradeModal .btn-accept {
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: #13c1f4;
+    color: white;
+    min-width: 200px;
+    float: right;
+    font-size: 20px;
+}
+.img-sub-upgrade {
+    margin: 0 auto;
+}
+.modal-backdrop.in {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.modal {
+    text-align: center;
+    padding: 15px !important;
+}
+
+#freePassRow .tooltip-arrow {
+    
+}
+
+#freePassRow .tooltip-inner {
+    background-color: white;
+    width: 250px;
+    max-width: 250px;
+    height: 150px;
+    border: 0.5px solid #d3d2d4;
+}
+
+.greenborder .row-2 .tooltip .checkbox {
+    text-align: left;
+}
+.greenborder .row-2 .tooltip .checkbox:last-child {
+    height: 40px;
+}
+.tooltip b {
+    color: #000000;
+}
+.greenborder .row-2 .tooltip.in {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.greenborder .row-2 .tooltip.bottom {
+    padding: 9px 0;
+    margin-top: 0px;
+}
+.greenborder .row-2 .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #d3d2d4;
+    margin-left: -10px;
+    border-width: 0 10px 10px;
+}
+
+.greenborder .row > div.promo-applied {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto;
+    line-height: 14px;
+}
+.promo-h5 {
+    font-size: 10px;
+    font-weight: 700;
+    color: #11A752;
+    text-transform: none;
+}
+.promo-applied span {
+    font-size: 10px;
+    color: #5C5C5C;
+}
+/*******************Exclusive Modal*******************/
+@media (max-width: 992px) {
+    .span-28px-500-red {
+        font-size: 24px;
+    }
+    #newBookingModal .btn {
+        margin-left: 15px;
+        width: 100px;
+        margin-bottom: 35px;
+    }
+
+    #newBookingModal .btn-cancel {
+        margin-right: 15px;
+    }
+    #newBookingModal .button-submit {
+        position: relative;
+        height: auto;
+    }
+    #newBookingModal .location {
+        padding: 30px 20px;
+    }
+    #soldOutModal .modal-title,
+    #newBookingModal .modal-title {
+        font-size: 24px;
+    }
+    #newBookingModal .button-submit,
+    #soldOutModal .button-submit {
+        height: auto;
+    }
+
+    #soldOutModal .button-submit .btn {
+        margin: 25px auto;
+    }
+    #main .divider {
+        margin: 25px auto;
+    }
+    #upgradeModal {
+        padding: 15px 15px 50px 15px !important;
+    }
+    #upgradeModal .vertical-align-c {
+        vertical-align: top;
+    }
+    #upgradeModal .modal-content {
+        margin-bottom: 70px;
+    } 
+    #upgradeModal .modal-title {
+        font-size: 24px;
+    }
+    #upgradeModal .modal-sub-title {
+        font-size: 16px;
+    }
+    .extra-text {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .upgrade-subscription-list ul {
+        margin-left: 35px;
+    }
+    .upgrade-subscription-list ul li {
+        height: 14px;
+        line-height: 14px;
+    }
+    #upgradeModal .button-submit {
+        position: relative;
+        height: auto;
+        line-height: 1;
+        margin-top: 10px;
+    }
+    #upgradeModal .btn-accept:hover,
+    #upgradeModal .btn-accept,
+    #upgradeModal .view-booking:hover,
+    #upgradeModal .view-booking {
+        float: none;
+    }
+    #upgradeModal .modal-body {
+        padding: 0 15px 5px 15px;
+    }
+    #freePassModal .btn {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        box-shadow: none;
+        height: 46px;
+        line-height: 44px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 0;
+    }
+    #freePassModal .modal-title {
+        font-size: 24px;
+    }
+
+    .upgrade-subscription-list {
+        margin-top: 5px;
+    }
+    .upgrade-subscription-list.padding-right-5,
+    .upgrade-subscription-list.padding-left-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .img-sub-upgrade {
+        width: 100%;
+    }
+    .sub-term {
+        font-size: 8px;
+        margin-bottom: 0;
+        font-style: italic;
+        margin-top: 10px;
+    }
+    #upgradeModal .btn-accept {
+        min-width: 260px;
+        font-size: 18px;
+    }
+    #upgradeModal .button-submit {
+        margin-top: 5px;
+    }
+    hr.sub-upgrade {
+        margin-bottom: 5px;
+    }
+    #upgradeModal .modal-header {
+        margin: 15px 18px 10px 18px;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .modal-open .modal .modal-body .row > div.padding-right-5 {
+        padding-right: 15px;
+    }
+    .upgrade-subscription-list .line-height-40 {
+        line-height: 24px;
+    }
+    .modal-open #upgradeModal.modal .modal-body .row > div {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+@media (max-width:500px) {
+    #freePassModal .location .checkbox {
+        width: auto;
+    }
+}
+@media (max-width:400px) {
+    #upgradeModal .btn-accept {
+        min-width: 200px;
+    }
+}

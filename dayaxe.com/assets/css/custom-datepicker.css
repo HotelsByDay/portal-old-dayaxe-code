@@ -1,0 +1,96 @@
+﻿.datepicker table th, .datepicker table td { color: #4A4A4A; }
+.table-condensed {
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+.datepicker table tr td, 
+.datepicker table tr th {
+    background-color: white;
+}
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:active,
+.datepicker .datepicker-days table .disabled,
+.datepicker .datepicker-days table .disabled:hover {
+    background-color: #fff;
+    color: #CCC !important;
+    text-decoration: line-through;
+}
+.datepicker .datepicker-days table .disabled.date-future,
+.datepicker .datepicker-days table .disabled.date-future:hover {
+    background-color: #4A4A4A !important;
+    text-decoration: none;
+    color: #fff;
+    border: solid 2px #4a4a4a !important;
+}
+
+/*.datepicker .datepicker-days table .disabled-date,
+.datepicker .datepicker-days table .disabled-date:hover {
+    background-color: #4a4a4a;
+    text-decoration: line-through;
+    color: #fff;
+    border: solid 2px #4a4a4a;
+}*/
+.datepicker .next:hover, 
+.datepicker .prev:hover {
+    background: none;
+}
+.datepicker table tr td, 
+.datepicker table tr th {
+    border-radius: 0;
+}
+.datepicker tfoot tr th.clear {
+    color: #4A4A4A;
+    background: none;
+    color: #4A4A4A;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.datepicker table tr td.today,
+.datepicker table tr td.today:hover {
+    background-color: white !important;
+    border: solid 2px #060606 !important;
+    color: #000 !important;
+} 
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.active:hover{
+    background-color: #13c1f4 !important;
+    color: #000;
+    border: solid 2px #13c1f4;
+}
+.datepicker table tr td span.avail-ts {
+    position: absolute;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #faff02;
+    color: #4A4A4A;
+    font-size: 10px;
+    top: 0;
+    right: 0;
+    line-height: 12px;
+}
+.datepicker table tr td.disabled span.avail-ts {
+    display: none;
+}
+.datepicker table tr td {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+}
+.datepicker table tr td.today {
+    margin: 0;
+}
+.datepicker table tr td.disabled-date span.avail-ts {
+    display: none !important;
+}
+
+@media (max-width: 992px) {
+    .is-mobile .datepicker-dropdown {
+        width: 100% !important;
+        height: 120% !important;
+        left: 0 !important;
+        padding-top: 20px;
+    }
+}

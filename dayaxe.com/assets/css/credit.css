@@ -1,0 +1,175 @@
+﻿/* Banner */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+hr.c {
+    border-top: 0.5px solid #F2F1F3;
+    margin: 40px 0;
+}
+div.credits {
+    margin: 40px auto 10px;
+    max-width: 865px;
+}
+/*header.credits .title {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}*/
+
+/*header.credits .title-c {
+    font-size: 36px;
+    text-align: left;
+    font-weight: 500;
+    max-width: 865px;
+}*/
+.credits .title-credits {
+    margin-bottom: 30px;
+    text-transform: none;
+    font-weight: 700;
+}
+.credits .title-p {
+    font-size: 30px;
+    text-align: left;
+    font-weight: 700;
+    text-transform: none;
+    color: #4A4A4A;
+}
+.credits .title-blue {
+    font-size: 14px;
+    font-weight: 700;
+    color: #13C1F4;
+}
+.credits .description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #4A4A4A;
+    line-height: 1;
+}
+.personal-code {
+    font-size: 24px;
+    font-weight: 700;
+    color: #13C1F4;
+    margin-top: 30px;
+}
+.credit-history {
+    background-color: #f6f6f6;
+    padding: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.credit-history .not-available {
+    text-align: center;
+}
+.credit-history > div {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+.credit-history > div:nth-child(2) {
+    padding-left: 15px;
+}
+.credit-history > div:nth-child(3) {
+    padding-left: 15px;
+}
+.credit-history .date {
+    font-size: 10px;
+    color: #4A4A4A;
+    font-weight: 300;
+    white-space: nowrap;
+}
+.credit-history .type {
+    font-size: 10px;
+    color: #13C1F4;
+    text-transform: uppercase;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.credit-history .amount {
+    font-weight: 700;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+.credit-history .description,
+.credit-history .description  span{
+    font-weight: 700;
+    font-size: 10px;
+    color: #4A4A4A;
+}
+.credit-history .amount {
+    text-align: right;
+}
+.credits .btn-blue-all {
+    height: 28px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px !important;
+    padding: 0 10px;
+    margin-top: 30px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.credits .personal-code input {
+    height: 28px;
+    line-height: 28px;
+    background-color: #f9f9f9;
+    color: #494949;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 14px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.credits .personal-code input.has-value {
+    text-transform: uppercase;
+    color: #13c1f4;
+}
+
+.credit-history.seperate {
+    height: 1px;
+    padding: 0 15px;
+}
+.credit-history.seperate > div > hr {
+    height: 1px;
+    margin: 0;
+    line-height: 1px;
+    color: #dadada;
+}
+.credits .error-message {
+    margin-left: 15px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 7px;
+    color: #D0011B;
+}
+.credits .success-message {
+    margin-left: 15px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 7px;
+    color: #10A651;
+}
+.credit-list .seperate:last-child {
+    display: none;
+}
+/*#main > header > .container {
+    max-width: 960px;
+}*/
+#main > header.credits {
+    height: 80px;
+    background-color: #13c1f4;
+}
+.credits-page .navbar-default {
+    background-color: #13c1f4;
+}
+.credits .go-back {
+    position: fixed;
+}
+.not-available span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #4A4A4A;
+    padding-bottom: 50px;
+}
