@@ -1,12 +1,12 @@
 {
-  "type": "service_account",
-  "project_id": "dayaxe-stage",
-  "private_key_id": "96fad99beb01216c765dd9ed082fbedfde292550",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2cTU98FFUOU5Y\nxcU2gY1nldsVUmlZQd0zEq5XGBF3VuWv7gLdXG5QpkuEe19NEmOW7TzjxBIatVHG\n0qw+wx+Irw3DAd5cyi5WZhOx+lYrvkGv7XsuQmvrID55ji2jTc9V4m/8nTDQPcXt\no9OokKKYGAYRHWivZaOS5tn+4OZXG0Uv9LXT4evQDdAV7ANO3Nc0xPZrlON0w+SF\nVDU3Af8fg8K9ZEsi6wifR7hu2zXnus/NT5IuWk6RZQo9pyzughtQkTgXzYEHRspX\nk2d05juq5DSAgBcnjmQOoRaQoxTa2o4QBSM14E7U47zGcSQw/Zs7ovFwHzUox0zb\neYhmidRRAgMBAAECggEAAhyMT7O01UM2h2t+jVNxhgXje7sw8fIDs+Ae+W4TYay1\nStR33wT/V9qc3CMrZrJ0SZ5kSoSN6xY3JJRynuVWO5g/Egc3Ah7q62ASEUjC742r\np/QZLV9ibV25q2F8YLv5TtaokiVll7tnS4lOXVCTOSxqAY+0EvebrYsTcdI7iD2J\nDYlGwNUCs0NSgYuxIEVdmzZ+hIYnz29rlMQK7m+P9caurSTuiVWDX7FEg0BMpLgI\nmhaCLCeZRx0lzsT+oTK3vuv/pc3jY0IjF2OX/Ar+xvGwn5987Fl+Q36NjkzVluUB\nh52NV4dEv7wHhdNKgb5KrF56pEsZmiXepcATICFzUwKBgQDfyTnFYDnQ0euOjn3E\nengBm9D4I1WFt1o1v7WVUuZFqVy9ipDLNh7akvaEJ7U0jcjamNW8c71+27cZt2CY\nepLIsD5jOjTw4YbBMzRrMJI02Ie8MU3yLuncgkZP2Y5rzgw0/GVsjCGYHeqUS7OL\n7O3GwRObisi2iHoQivBc0/caqwKBgQDQtGotVd3tVjdCatgqQRMHsOHb2ae2TiBE\n5nwh1sdh7sN4r1SJHeNl1hlyNE+5HlCweyWJ5z2oJkN7b+Xq9Wu2pnwnHYqpEtdf\n33T3U7ESJhMKAd5tQLqZGla1jURJSggWYLeFsnuf7pF0zisBDPJ+sojrUe8VaJ9R\ntLNmkTKM8wKBgQDAUQ0dy1lEVPLrexcoP9tb/o0ygiMgG/chk9Q4NJsCKM8zcJ6I\nlMUlMAE8h2dZd7Ox8IBWSN0D5UxQhGA2CbiVUaj722zdyeLlq9yTdZVgZukXWQPU\nam69+xLz0lJr4RJqgrGi/DZupN8QfJIbYQzirtDr7fQZseW8y7pO/DYyqwKBgB0z\nwU+KnjzhPWYrsQdoh5Mh6thqQg8+K0G4xlGtzcQkNnGihr+Q0QqkxHa4XxdV6JBp\nCr2a/4ORpwuUgqU3pdSuwtxuQ8KYgk5F5AXfTf1uGmfiDw9WaUWW698HXzCqDSuk\naMlqSeX86ZlgZ6AEAcI8lO/oTP2/39r838VQN7SFAoGBANrVR7Oq+Tr/WUSaYxHl\niQk0VCmvxkSYRjPm7EVEu2mEVM4NkJN9W+f1ZYcIsUZZEv2ihqxQ/xZbrFj5sNTB\nHMS8Fw113j6XuPw1L6vihKKNy0mnHzp3+plEOK16Ffafs1mSgX6Xf36gIPKpadhR\n3cEUg7URpm+h4uFafrAXPggT\n-----END PRIVATE KEY-----\n",
-  "client_email": "stage-analytics@dayaxe-stage.iam.gserviceaccount.com",
-  "client_id": "114758043286228031975",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stage-analytics%40dayaxe-stage.iam.gserviceaccount.com"
+  "type": "",
+  "project_id": "",
+  "private_key_id": "",
+  "private_key": "",
+  "client_email": "",
+  "client_id": "",
+  "auth_uri": "",
+  "token_uri": "",
+  "auth_provider_x509_cert_url": "",
+  "client_x509_cert_url": ""
 }
